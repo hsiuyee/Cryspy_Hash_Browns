@@ -6,7 +6,7 @@ from flask_cors import CORS
 import logging
 
 # Import sessions from KMS server to validate session IDs
-from KMS_APIs import sessions
+# from KMS_APIs import sessions
 
 # === Setup logging ===
 logging.basicConfig(
@@ -32,7 +32,7 @@ sessions = {"68105616": "abc0975773694@gmail.com"} # sid -> email
 def validate_session():
     sid = request.headers.get('sid')
     # DEBUG
-    log(f"[VALIDATE_SESSION] Incoming Session-Id: {sid}")
+    log(f"[VALIDATE_SESSION] Incoming sid: {sid}")
     log(f"[VALIDATE_SESSION] Sessions store: {sessions}")
     if not sid or sid not in sessions:
         return False, jsonify({'error': 'invalid_session'})
