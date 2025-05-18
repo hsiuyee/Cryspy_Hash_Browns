@@ -33,7 +33,7 @@
           sessionStorage.setItem('apiBaseUrl', result.apiBaseUrl);
           msg.innerHTML = "OTP sent! Redirecting to OTP page...";
           setTimeout(() => {
-            window.location.href = "otp.html";
+            window.location.href = "otp-register.html";
           }, 2000);
         } else {
           msg.innerHTML = result.error || "Register failed!";

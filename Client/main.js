@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
-const { handleLogin, handleRegister, handleOTP } = require('./backend/auth.js');
+const { handleLogin, handleRegister, handleOTP, handleOTPRegister} = require('./backend/auth.js');
+const { handleUpload } = require('./backend/file.js');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
@@ -26,12 +27,11 @@ app.on('window-all-closed', function() {
   }
 });
 
-// Handle login event 
+// Authentication 
 ipcMain.handle('login', handleLogin);
-
-// Handle register event
 ipcMain.handle('register', handleRegister);
-
-// Handle enter otp event 
 ipcMain.handle('otp', handleOTP);
+ipcMain.handle('otp_register', handleOTPRegister);
 
+// File operation 
+ipcMain.handle('upload', handleUpload);

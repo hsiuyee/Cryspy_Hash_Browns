@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Crypto Engineering</title>
-    </head>
-    <body>
-        <h1>Hi!</h1>
-    </body>
-    <button onclick="goToLogin()">Logout</button>
+<head>
+  <title>Crypto Engineering</title>
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
 
-    <script>
-        function goToLogin() {
-            window.location.href = "login.html";
-        }
-    </script>
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav li {
+      display: inline;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    body {
+      padding-top: 60px; /* prevent content being hidden under fixed nav */
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Upload</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="#" onclick="goToLogin()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <h1 id="welcome"></h1>
+  <div id="upload-section">
+  <h2>Upload a File</h2>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" name="file" required />
+        <button type="submit">Upload</button>
+    </form>
+    <p id="uploadMsg"></p>
+   </div>
+
+  <script src="../renderer/upload.js"></script>
+</body>
 </html>

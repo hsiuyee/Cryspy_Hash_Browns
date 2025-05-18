@@ -154,3 +154,172 @@
 [2025-05-18T17:26:28.531Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 981386
 [2025-05-18T17:26:28.531Z] INFO: http://localhost:3000/verify_email
 [2025-05-18T17:26:28.548Z] INFO: email_verified
+[2025-05-18T18:55:18.929Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T18:55:18.932Z] INFO: http://localhost:3000/register
+[2025-05-18T18:55:19.690Z] INFO: registration_pending
+[2025-05-18T18:55:36.795Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 193227
+[2025-05-18T18:55:36.796Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T18:55:36.836Z] INFO: email_verified
+[2025-05-18T18:56:01.222Z] INFO: Upload Attempt File: undefined
+[2025-05-18T19:02:24.733Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:02:24.736Z] INFO: http://localhost:3000/login
+[2025-05-18T19:02:25.385Z] INFO: login_otp_sent
+[2025-05-18T19:02:35.019Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 537845
+[2025-05-18T19:02:35.019Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:02:35.030Z] INFO: email_verified
+[2025-05-18T19:02:41.156Z] INFO: Upload Attempt File: undefined
+[2025-05-18T19:05:41.145Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:05:41.150Z] INFO: http://localhost:3000/login
+[2025-05-18T19:05:41.835Z] INFO: login_otp_sent
+[2025-05-18T19:05:51.906Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 155533
+[2025-05-18T19:05:51.907Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:05:51.926Z] INFO: email_verified
+[2025-05-18T19:14:50.677Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:14:50.684Z] INFO: http://localhost:3000/login
+[2025-05-18T19:14:51.254Z] INFO: login_otp_sent
+[2025-05-18T19:15:00.916Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 431587
+[2025-05-18T19:15:00.917Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:15:00.929Z] INFO: email_verified
+[2025-05-18T19:16:15.251Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:16:15.254Z] INFO: http://localhost:3000/login
+[2025-05-18T19:16:15.805Z] INFO: login_otp_sent
+[2025-05-18T19:16:24.872Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 850741
+[2025-05-18T19:16:24.873Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:16:24.889Z] INFO: email_verified
+[2025-05-18T19:17:54.504Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:17:54.506Z] INFO: http://localhost:3000/login
+[2025-05-18T19:17:54.965Z] INFO: login_otp_sent
+[2025-05-18T19:18:03.720Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 211928
+[2025-05-18T19:18:03.720Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:18:03.741Z] INFO: email_verified
+[2025-05-18T19:20:31.528Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:20:31.530Z] INFO: http://localhost:3000/login
+[2025-05-18T19:20:31.940Z] INFO: login_otp_sent
+[2025-05-18T19:20:41.386Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 816764
+[2025-05-18T19:20:41.386Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:20:41.410Z] INFO: email_verified
+[2025-05-18T19:20:47.692Z] INFO: Upload Attempt File: undefined
+[2025-05-18T19:30:43.353Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:30:43.356Z] INFO: http://localhost:3000/login
+[2025-05-18T19:30:44.218Z] INFO: login_otp_sent
+[2025-05-18T19:30:53.332Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 223091
+[2025-05-18T19:30:53.333Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:30:53.347Z] INFO: email_verified
+[2025-05-18T19:39:50.057Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:39:50.059Z] INFO: http://localhost:3000/login
+[2025-05-18T19:39:51.033Z] INFO: login_otp_sent
+[2025-05-18T19:40:02.680Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 253947
+[2025-05-18T19:40:02.680Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:40:02.698Z] INFO: email_verified
+[2025-05-18T19:40:08.470Z] INFO: Upload Attempt File: [object Object]
+[2025-05-18T19:44:33.418Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:44:33.422Z] INFO: http://localhost:3000/login
+[2025-05-18T19:44:34.151Z] INFO: login_otp_sent
+[2025-05-18T19:44:46.242Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 322926
+[2025-05-18T19:44:46.242Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:44:46.260Z] INFO: email_verified
+[2025-05-18T19:44:51.991Z] INFO: Upload Attempt File: [object Object]
+[2025-05-18T19:51:48.941Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:51:48.944Z] INFO: http://localhost:3000/login
+[2025-05-18T19:51:49.643Z] INFO: login_otp_sent
+[2025-05-18T19:52:02.012Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 357340
+[2025-05-18T19:52:02.013Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:52:02.031Z] INFO: email_verified
+[2025-05-18T19:52:07.569Z] INFO: Upload Attempt File: client.log
+[2025-05-18T19:52:07.571Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T19:54:44.695Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T19:54:44.698Z] INFO: http://localhost:3000/login
+[2025-05-18T19:54:45.194Z] INFO: login_otp_sent
+[2025-05-18T19:55:02.025Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 851937
+[2025-05-18T19:55:02.026Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T19:55:02.078Z] INFO: email_verified
+[2025-05-18T19:55:09.352Z] INFO: Upload Attempt File: client.log
+[2025-05-18T19:55:09.354Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:05:16.824Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:05:16.826Z] INFO: http://localhost:3000/register
+[2025-05-18T20:05:17.351Z] INFO: registration_pending
+[2025-05-18T20:05:31.713Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 655586
+[2025-05-18T20:05:31.714Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:05:31.756Z] INFO: email_verified
+[2025-05-18T20:05:37.741Z] INFO: Upload Attempt File: client.log
+[2025-05-18T20:05:37.743Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:09:30.251Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:09:30.255Z] INFO: http://localhost:3000/register
+[2025-05-18T20:09:30.655Z] INFO: registration_pending
+[2025-05-18T20:09:40.569Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 586149
+[2025-05-18T20:09:40.569Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:09:40.578Z] INFO: email_verified
+[2025-05-18T20:09:47.653Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:09:47.658Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:12:15.729Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:12:15.732Z] INFO: http://localhost:3000/login
+[2025-05-18T20:12:16.437Z] INFO: login_otp_sent
+[2025-05-18T20:12:28.896Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 607299
+[2025-05-18T20:12:28.897Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:12:28.914Z] INFO: email_verified
+[2025-05-18T20:12:35.043Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:12:35.044Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:19:40.210Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:19:40.212Z] INFO: http://localhost:3000/login
+[2025-05-18T20:19:40.837Z] INFO: login_otp_sent
+[2025-05-18T20:19:50.693Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 648350
+[2025-05-18T20:19:50.694Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:19:50.747Z] INFO: login_success / SID=35380469
+[2025-05-18T20:19:56.559Z] INFO: Upload Attempt File: client.log
+[2025-05-18T20:19:56.562Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:19:57.316Z] INFO: Successfully ask KMS Public Key
+[2025-05-18T20:23:36.095Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:23:36.098Z] INFO: http://localhost:3000/login
+[2025-05-18T20:23:36.620Z] INFO: login_otp_sent
+[2025-05-18T20:23:51.913Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 398249
+[2025-05-18T20:23:51.914Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:23:51.949Z] INFO: login_success / SID=99239073
+[2025-05-18T20:23:57.074Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:23:57.077Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:23:57.344Z] INFO: Successfully ask KMS Public Key
+[2025-05-18T20:26:11.234Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:26:11.236Z] INFO: http://localhost:3000/login
+[2025-05-18T20:26:11.732Z] INFO: login_otp_sent
+[2025-05-18T20:26:20.370Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP:  70243
+[2025-05-18T20:26:20.371Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:26:27.457Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 702431
+[2025-05-18T20:26:27.458Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:26:27.474Z] INFO: login_success / SID=13806075
+[2025-05-18T20:26:34.215Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:26:34.217Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:27:11.109Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:27:11.109Z] INFO: http://localhost:3000/register
+[2025-05-18T20:27:11.431Z] INFO: registration_pending
+[2025-05-18T20:27:26.119Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 704231
+[2025-05-18T20:27:26.120Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:27:26.144Z] INFO: login_success / SID=82245210
+[2025-05-18T20:27:34.525Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:27:34.526Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:27:34.898Z] INFO: Successfully ask KMS Public Key
+[2025-05-18T20:27:34.900Z] INFO: http://localhost:4000/upload
+[2025-05-18T20:27:43.739Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:27:43.739Z] INFO: http://localhost:3000/login
+[2025-05-18T20:27:45.543Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:27:45.543Z] INFO: http://localhost:3000/login
+[2025-05-18T20:27:47.375Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:27:47.376Z] INFO: http://localhost:3000/login
+[2025-05-18T20:28:02.569Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:28:02.570Z] INFO: http://localhost:3000/login
+[2025-05-18T20:28:49.029Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:28:49.029Z] INFO: http://localhost:3000/login
+[2025-05-18T20:30:03.775Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:30:03.777Z] INFO: http://localhost:3000/register
+[2025-05-18T20:30:04.309Z] INFO: registration_pending
+[2025-05-18T20:30:14.930Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 781560
+[2025-05-18T20:30:14.931Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:30:14.967Z] INFO: email_verified
+[2025-05-18T20:30:22.977Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T20:30:22.978Z] INFO: http://localhost:3000/login
+[2025-05-18T20:30:23.300Z] INFO: login_otp_sent
+[2025-05-18T20:30:33.755Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 157846
+[2025-05-18T20:30:33.755Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T20:30:33.765Z] INFO: login_success / SID=94494630
+[2025-05-18T20:30:38.879Z] INFO: Upload Attempt File: README.md
+[2025-05-18T20:30:38.881Z] INFO: http://localhost:3000/get_public_key
+[2025-05-18T20:30:39.560Z] INFO: Successfully ask KMS Public Key
+[2025-05-18T20:30:39.561Z] INFO: http://localhost:4000/upload

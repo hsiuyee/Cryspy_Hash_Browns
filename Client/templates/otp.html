@@ -30,7 +30,8 @@
             const result = await window.electronAPI.otp(email, otp);
             const msg = document.getElementById('otpMsg');
             if (result.success) {
-                msg.innerHTML = "OTP verified! Redirecting...";
+                sessionStorage.setItem('sid', result.sid);
+                msg.innerHTML = "OTP verified! Login...";
                 setTimeout(() => {
                     window.location.href = "index.html";
                 }, 2000);

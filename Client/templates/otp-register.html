@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OTP Verification</title>
+</head>
+<body>
+  <h1>Enter OTP</h1>
+  <h2 id="otpUsername"></h2>
+  <form id="otpForm">
+    <input type="text" id="otp" name="otp" maxlength="6" required/>
+    <button type="submit">Verify OTP</button>
+  </form>
+  <p id="otpMsg"></p>
+
+  <script >
+    const apiBaseUrl = sessionStorage.getItem('apiBaseUrl');
+    const email = sessionStorage.getItem('email');
+
+    document.getElementById('otpUsername').innerText = `OTP already sent to ${email}`;
+
+    document.getElementById('otpForm').addEventListener('submit', async function(event) {
+        event.preventDefault(); 
+
+        const otp = document.getElementById('otp').value;
+        console.log(email, otp);
+
+        try {
+            const result = await window.electronAPI.otp_register(email, otp);
+            const msg = document.getElementById('otpMsg');
+            if (result.success) {
+                msg.innerHTML = "OTP verified! Back to login page...";
+                setTimeout(() => {
+                    window.location.href = "login.html";
+                }, 2000);
+            } else {
+                msg.innerHTML = result.error || "OTP verification failed!";
+                msg.style.color = "red";
+            }
+        } catch (err) {
+            logger.error(err.message);
+        }
+    });
+
+  </script>
+</body>
+</html>
