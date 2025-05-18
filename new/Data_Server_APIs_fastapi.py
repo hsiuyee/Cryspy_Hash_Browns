@@ -1,5 +1,5 @@
 # data_server.py
-from fastapi import FastAPI, HTTPException, Request, JSONResponse
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis
@@ -60,24 +60,24 @@ def get_file(fname: str):
 @app.post("/upload")
 async def upload_file(payload: UploadRequest):
     if not payload.file_name or not payload.encrypted_data or not payload.encrypted_aes_key:
-        log(f"[UPLOAD] Missing fields (status_code: 400)")
-        return JSONResponse(content={"code": 400, "message": "missing_fields"})
+        raise HTTPException(status_code=400, detail="missing_fields")
 
     if file_exists(payload.file_name):
-        log(f"[UPLOAD] File {payload.file_name} already exists (status_code: 409)")
-        return JSONResponse(content={"code": 409, "message": "file_exists"})
+        raise HTTPException(status_code=409, detail="file_exists")
 
     save_file(payload.file_name, payload.encrypted_data, payload.encrypted_aes_key)
     log(f"[UPLOAD] Stored file '{payload.file_name}' in Redis")
-    return JSONResponse(content={"code": 200, "message": "upload_success"})
+    return {"status": "upload_success"}
 
 @app.get("/download")
 async def download_file(file_name: str):
     record = get_file(file_name)
     if not record:
-        log(f"[DOWNLOAD] File {file_name} not found (status_code: 404)")
-        return JSONResponse(content={"code": 404, "message": "file_not_found"})
+        raise HTTPException(status_code=404, detail="file_not_found")
 
     log(f"[DOWNLOAD] Retrieved file '{file_name}' from Redis")
-    return JSONResponse(content={"code": 200, "message": "download_success", "encrypted_data": record["encrypted_data"], "encrypted_aes_key": record["encrypted_aes_key"]})
+    return {
+        "encrypted_data": record["encrypted_data"],
+        "encrypted_aes_key": record["encrypted_aes_key"]
+    }
 

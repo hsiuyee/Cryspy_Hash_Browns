@@ -6,10 +6,7 @@ import random
 import logging
 import base64
 import smtplib
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
 from fastapi.responses import JSONResponse
-=======
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 from email.mime.text import MIMEText
 from Crypto.PublicKey import RSA
 import redis
@@ -135,17 +132,12 @@ def has_access(fname, email):
 @app.post("/register")
 async def register(req: RegisterRequest):
     if get_user(req.email) or r.exists(f"pending:{req.email}"):
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
         log(f"[REGISTER] User {req.email} already exists (status_code: 400)")
         return JSONResponse(content={"code": 400, "message": "user_exists"})
-=======
-        raise HTTPException(status_code=400, detail="user_exists")
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
     otp = gen_otp()
     save_pending(req.email, req.password_hash, otp)
     log(f"[EMAIL] Sending verification OTP to {req.email}: {otp}")
     send_otp_to_email(req.email, otp)
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
     log(f"[REGISTER] OTP sent to {req.email}: {otp}")
     return JSONResponse(content={"code": 200, "message": "registration_pending"})
 
@@ -162,37 +154,17 @@ async def verify_register(req: OTPVerifyRequest):
     clear_pending(req.email)
     log(f"[REGISTER] User {req.email} verified (status_code: 200)")
     return JSONResponse(content={"code": 200, "message": "registration_success"})
-=======
-    return {"status": "registration_pending"}
-
-@app.post("/verify_email")
-async def verify_email(req: OTPVerifyRequest):
-    pending = get_pending(req.email)
-    if not pending:
-        raise HTTPException(status_code=400, detail="no_pending_registration")
-    if pending[b"otp"].decode() != req.otp:
-        clear_pending(req.email)
-        raise HTTPException(status_code=400, detail="otp_invalid")
-    save_user(req.email, pending[b"password_hash"].decode())
-    clear_pending(req.email)
-    return {"status": "email_verified"}
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 
 @app.post("/login")
 async def login(req: LoginRequest):
     user = get_user(req.email)
     if not user or user[b"password_hash"].decode() != req.password_hash:
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
         log(f"[LOGIN] Login failed for {req.email} (status_code: 401)")
         return JSONResponse(content={"code": 401, "message": "login_failed"})
-=======
-        raise HTTPException(status_code=401, detail="login_error")
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
     otp = gen_otp()
     save_pending(req.email, req.password_hash, otp)
     log(f"[EMAIL] Login OTP to {req.email}: {otp}")
     send_otp_to_email(req.email, otp)
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
     log(f"[LOGIN] OTP sent to {req.email}: {otp}")
     return JSONResponse(content={"code": 200, "message": "login_otp_sent"})
 
@@ -207,51 +179,27 @@ async def verify_login(req: OTPVerifyRequest):
     clear_pending(req.email)
     log(f"[LOGIN] Login success for {req.email} (status_code: 200)")
     return JSONResponse(content={"code": 200, "message": "login_success", "sid": sid})
-=======
-    return {"status": "login_otp_sent"}
-
-@app.post("/verify_otp")
-async def verify_otp(req: OTPVerifyRequest):
-    pending = get_pending(req.email)
-    if not pending or pending[b"otp"].decode() != req.otp:
-        raise HTTPException(status_code=401, detail="otp_failed")
-    sid = gen_sid()
-    save_session(sid, req.email)
-    clear_pending(req.email)
-    return {"status": "login_success", "sid": sid}
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 
 @app.post("/get_public_key")
 async def get_public_key(req: FileNameRequest, sid: Optional[str] = Header(None)):
     if not get_session(sid):
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
         log(f"[GET_PUBLIC_KEY] Invalid session for {sid} (status_code: 403)")
         return JSONResponse(content={"code": 403, "message": "invalid_session"})
     if file_exists(req.file_name):
         log(f"[GET_PUBLIC_KEY] File {req.file_name} already exists (status_code: 400)")
         return JSONResponse(content={"code": 400, "message": "file_exists"})
-=======
-        raise HTTPException(status_code=403, detail="invalid_session")
-    if file_exists(req.file_name):
-        raise HTTPException(status_code=400, detail="file_exists")
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
     rsa_key = RSA.generate(2048)
     pub = base64.b64encode(rsa_key.publickey().export_key()).decode()
     priv = base64.b64encode(rsa_key.export_key()).decode()
     user = get_session(sid).decode()
     save_file_keys(req.file_name, pub, priv, user)
     save_access(req.file_name, user)
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
     log(f"[GET_PUBLIC_KEY] Public key saved for {req.file_name} (status_code: 200)")
     return JSONResponse(content={"code": 200, "message": "public_key_saved", "kms_public_key": pub})
-=======
-    return {"kms_public_key": pub}
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 
 @app.post("/get_private_key")
 async def get_private_key(req: FileNameRequest, sid: Optional[str] = Header(None)):
     if not get_session(sid):
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
         log(f"[GET_PRIVATE_KEY] Invalid session for {sid} (status_code: 403)")
         return JSONResponse(content={"code": 403, "message": "invalid_session"})
     user = get_session(sid).decode()
@@ -261,19 +209,10 @@ async def get_private_key(req: FileNameRequest, sid: Optional[str] = Header(None
     key = r.hget(f"file:{req.file_name}", "private_key").decode()
     log(f"[GET_PRIVATE_KEY] Private key retrieved for {req.file_name} (status_code: 200)")
     return JSONResponse(content={"code": 200, "message": "private_key_retrieved", "kms_private_key": key})
-=======
-        raise HTTPException(status_code=403, detail="invalid_session")
-    user = get_session(sid).decode()
-    if not has_access(req.file_name, user):
-        raise HTTPException(status_code=403, detail="access_denied")
-    key = r.hget(f"file:{req.file_name}", "private_key").decode()
-    return {"kms_private_key": key}
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 
 @app.post("/grant_access")
 async def grant_access(req: GrantAccessRequest, sid: Optional[str] = Header(None)):
     if not get_session(sid):
-<<<<<<< HEAD:Redis_Server/KMS_APIs_fastapi.py
         log(f"[GRANT_ACCESS] Invalid session for {sid} (status_code: 403)")
         return JSONResponse(content={"code": 403, "message": "invalid_session"})
     owner = get_session(sid).decode()
@@ -284,16 +223,6 @@ async def grant_access(req: GrantAccessRequest, sid: Optional[str] = Header(None
     save_access(req.file_name, req.friend_email)
     log(f"[GRANT_ACCESS] {req.friend_email} granted on {req.file_name} (status_code: 200)")
     return JSONResponse(content={"code": 200, "message": "grant_success"})
-=======
-        raise HTTPException(status_code=403, detail="invalid_session")
-    owner = get_session(sid).decode()
-    rec = r.hgetall(f"file:{req.file_name}")
-    if not rec or rec[b"owner"].decode() != owner:
-        raise HTTPException(status_code=403, detail="permission_denied")
-    save_access(req.file_name, req.friend_email)
-    log(f"[GRANT_ACCESS] {req.friend_email} granted on {req.file_name}")
-    return {"status": "grant_success"}
->>>>>>> refs/remotes/origin/main:Server_Redis/KMS_APIs_fastapi.py
 
 # === Startup ===
 import uvicorn
