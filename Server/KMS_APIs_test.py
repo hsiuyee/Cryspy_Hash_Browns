@@ -1,6 +1,3 @@
-# kms_api_cli_test.py
-# Interactive CLI client for testing KMS Server APIs
-
 import requests
 import sys
 
