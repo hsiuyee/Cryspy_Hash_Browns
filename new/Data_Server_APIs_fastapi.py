@@ -81,3 +81,10 @@ async def download_file(file_name: str):
         "encrypted_aes_key": record["encrypted_aes_key"]
     }
 
+import uvicorn
+
+if __name__ == "__main__":
+    log("Flushing Redis database for a clean start...")
+    r.flushdb()
+    log("Starting Data Server with FastAPI on port 4000")
+    uvicorn.run(app, host="0.0.0.0", port=4000)
