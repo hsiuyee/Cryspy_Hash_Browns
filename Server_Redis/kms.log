@@ -1,0 +1,40 @@
+2025-05-18 11:35:10,372 INFO: Flushing Redis database for a clean start...
+2025-05-18 11:35:37,336 INFO: Flushing Redis database for a clean start...
+2025-05-18 11:35:37,339 INFO: Starting KMS Server with Redis on port 3000
+2025-05-18 11:35:37,340 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-05-18 11:35:37,340 INFO: [33mPress CTRL+C to quit[0m
+2025-05-18 11:35:56,554 INFO: [EMAIL] Sending verification OTP to abc0975773694@gmail.com: 798779
+2025-05-18 11:35:56,977 INFO: 127.0.0.1 - - [18/May/2025 11:35:56] "POST /register HTTP/1.1" 200 -
+2025-05-18 11:36:03,001 INFO: 127.0.0.1 - - [18/May/2025 11:36:03] "POST /verify_email HTTP/1.1" 200 -
+2025-05-18 11:36:09,330 INFO: [EMAIL] Login OTP to abc0975773694@gmail.com: 828527
+2025-05-18 11:36:09,573 INFO: 127.0.0.1 - - [18/May/2025 11:36:09] "POST /login HTTP/1.1" 200 -
+2025-05-18 11:36:21,677 INFO: [SESSION] Generated sid: 15334564
+2025-05-18 11:36:21,678 INFO: 127.0.0.1 - - [18/May/2025 11:36:21] "POST /verify_otp HTTP/1.1" 200 -
+2025-05-18 11:36:26,405 INFO: [GET_PUBLIC_KEY] sid: 15334564
+2025-05-18 11:36:28,676 INFO: 127.0.0.1 - - [18/May/2025 11:36:28] "POST /get_public_key HTTP/1.1" 200 -
+2025-05-18 11:36:34,607 INFO: 127.0.0.1 - - [18/May/2025 11:36:34] "POST /get_private_key HTTP/1.1" 200 -
+2025-05-18 11:41:28,506 INFO: Flushing Redis database for a clean start...
+2025-05-18 11:41:28,509 INFO: Starting KMS Server with Redis on port 3000
+2025-05-18 11:41:28,511 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-05-18 11:41:28,511 INFO: [33mPress CTRL+C to quit[0m
+2025-05-18 11:45:47,968 INFO: Flushing Redis database for a clean start...
+2025-05-18 11:45:47,972 INFO: Starting KMS Server with Redis on port 3000
+2025-05-18 11:45:47,973 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-05-18 11:45:47,973 INFO: [33mPress CTRL+C to quit[0m
+2025-05-18 11:47:17,223 INFO: Flushing Redis database for a clean start...
+2025-05-18 11:47:17,226 INFO: Starting KMS Server with Redis on port 3000
+2025-05-18 11:47:33,297 INFO: [EMAIL] Sending verification OTP to abc0975773694@gmail.com: 156284
+2025-05-18 11:47:33,434 INFO: 127.0.0.1 - - [18/May/2025 11:47:33] "POST /register HTTP/1.1" 200 -
+2025-05-18 11:47:38,344 INFO: 127.0.0.1 - - [18/May/2025 11:47:38] "POST /verify_email HTTP/1.1" 200 -
+2025-05-18 11:47:44,140 INFO: [EMAIL] Login OTP to abc0975773694@gmail.com: 865279
+2025-05-18 11:47:44,267 INFO: 127.0.0.1 - - [18/May/2025 11:47:44] "POST /login HTTP/1.1" 200 -
+2025-05-18 11:47:51,727 INFO: [EMAIL] Login OTP to abc0975773694@gmail.com: 898447
+2025-05-18 11:47:51,847 INFO: 127.0.0.1 - - [18/May/2025 11:47:51] "POST /login HTTP/1.1" 200 -
+2025-05-18 11:47:57,429 INFO: [SESSION] Generated sid: 92995474
+2025-05-18 11:47:57,430 INFO: 127.0.0.1 - - [18/May/2025 11:47:57] "POST /verify_otp HTTP/1.1" 200 -
+2025-05-18 11:48:00,240 INFO: [GET_PUBLIC_KEY] sid: 92995474
+2025-05-18 11:48:00,611 INFO: 127.0.0.1 - - [18/May/2025 11:48:00] "POST /get_public_key HTTP/1.1" 200 -
+2025-05-18 11:48:04,043 INFO: 127.0.0.1 - - [18/May/2025 11:48:04] "POST /get_private_key HTTP/1.1" 200 -
