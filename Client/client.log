@@ -1,0 +1,128 @@
+[2025-05-18T15:18:28.784Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:23:10.225Z] INFO: Login Attempt Username: ff Password: ff
+[2025-05-18T15:28:45.884Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:37:57.577Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:39:33.122Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:56:13.481Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:56:13.987Z] ERROR: API Request failed:
+[2025-05-18T15:57:32.545Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:57:32.608Z] INFO: ${apiBaseUrl}register
+[2025-05-18T15:57:32.730Z] ERROR: API Request failed:
+[2025-05-18T15:58:16.297Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:58:16.366Z] INFO: http://localhost:3000/register
+[2025-05-18T15:58:16.470Z] ERROR: API Request failed:
+[2025-05-18T15:58:28.917Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T15:58:28.982Z] INFO: http://localhost:3000/register
+[2025-05-18T15:58:28.988Z] ERROR: API Request failed:
+[2025-05-18T16:05:29.988Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:05:30.063Z] INFO: http://localhost:3000/register
+[2025-05-18T16:05:30.180Z] ERROR: API Request failed:
+[2025-05-18T16:08:23.512Z] INFO: Register Attempt Username: undefined Password: test
+[2025-05-18T16:08:23.584Z] INFO: http://localhost:3000/register
+[2025-05-18T16:08:23.724Z] ERROR: API Request failed:
+[2025-05-18T16:09:43.079Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:09:43.154Z] INFO: http://localhost:3000/register
+[2025-05-18T16:11:11.022Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:11:11.087Z] INFO: http://localhost:3000/register
+[2025-05-18T16:11:51.927Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:11:51.990Z] INFO: http://localhost:3000/register
+[2025-05-18T16:11:52.568Z] INFO: API Response:
+[2025-05-18T16:18:08.605Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:18:08.675Z] INFO: http://localhost:3000/register
+[2025-05-18T16:18:09.408Z] INFO: registration_pending
+[2025-05-18T16:21:32.952Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:21:33.016Z] INFO: http://localhost:3000/register
+[2025-05-18T16:21:33.451Z] INFO: registration_pending
+[2025-05-18T16:25:53.774Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:25:53.837Z] INFO: http://localhost:3000/register
+[2025-05-18T16:25:54.369Z] INFO: registration_pending
+[2025-05-18T16:30:06.779Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:30:06.843Z] INFO: http://localhost:3000/register
+[2025-05-18T16:30:37.193Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:30:37.257Z] INFO: http://localhost:3000/register
+[2025-05-18T16:30:37.851Z] INFO: registration_pending
+[2025-05-18T16:32:03.370Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:32:03.435Z] INFO: http://localhost:3000/register
+[2025-05-18T16:32:03.932Z] INFO: registration_pending
+[2025-05-18T16:33:41.617Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:33:41.682Z] INFO: http://localhost:3000/register
+[2025-05-18T16:33:42.133Z] INFO: registration_pending
+[2025-05-18T16:41:12.784Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:41:12.857Z] INFO: http://localhost:3000/register
+[2025-05-18T16:41:13.544Z] INFO: registration_pending
+[2025-05-18T16:42:41.979Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:42:42.044Z] INFO: http://localhost:3000/register
+[2025-05-18T16:42:42.499Z] INFO: registration_pending
+[2025-05-18T16:42:52.984Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 916262
+[2025-05-18T16:42:52.985Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T16:43:26.413Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:43:26.488Z] INFO: http://localhost:3000/register
+[2025-05-18T16:43:26.964Z] INFO: registration_pending
+[2025-05-18T16:43:39.398Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 787034
+[2025-05-18T16:43:39.398Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T16:54:09.476Z] INFO: Login Attempt Username: undefined Password: test
+[2025-05-18T16:54:09.540Z] INFO: http://localhost:3000/login
+[2025-05-18T16:58:22.871Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:58:22.937Z] INFO: http://localhost:3000/login
+[2025-05-18T16:59:41.408Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:59:41.479Z] INFO: http://localhost:3000/login
+[2025-05-18T16:59:42.422Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:59:42.482Z] INFO: http://localhost:3000/login
+[2025-05-18T16:59:42.761Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T16:59:42.822Z] INFO: http://localhost:3000/login
+[2025-05-18T17:01:07.900Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:01:07.964Z] INFO: http://localhost:3000/login
+[2025-05-18T17:02:10.878Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:02:10.944Z] INFO: http://localhost:3000/register
+[2025-05-18T17:02:11.616Z] INFO: registration_pending
+[2025-05-18T17:02:27.581Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 548673
+[2025-05-18T17:02:27.582Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:02:27.598Z] INFO: email_verified
+[2025-05-18T17:02:38.955Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:02:39.019Z] INFO: http://localhost:3000/login
+[2025-05-18T17:03:31.624Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:03:31.688Z] INFO: http://localhost:3000/register
+[2025-05-18T17:03:32.127Z] INFO: registration_pending
+[2025-05-18T17:03:44.039Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 583817
+[2025-05-18T17:03:44.040Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:03:44.082Z] INFO: email_verified
+[2025-05-18T17:03:54.903Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:03:54.975Z] INFO: http://localhost:3000/login
+[2025-05-18T17:05:46.940Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:05:47.004Z] INFO: http://localhost:3000/register
+[2025-05-18T17:05:47.005Z] INFO: test
+[2025-05-18T17:05:47.468Z] INFO: registration_pending
+[2025-05-18T17:05:58.104Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 116410
+[2025-05-18T17:05:58.104Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:05:58.118Z] INFO: email_verified
+[2025-05-18T17:06:08.173Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:06:08.235Z] INFO: http://localhost:3000/login
+[2025-05-18T17:06:08.236Z] INFO: test
+[2025-05-18T17:08:37.071Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:08:37.141Z] INFO: http://localhost:3000/register
+[2025-05-18T17:08:37.141Z] INFO: Password: test / Password Hash: $2b$10$tUpVvmc01GcHSLEQnH96lerM.TRJETJhSLOaUdLVbRHmMvpyHK.5.
+[2025-05-18T17:08:37.593Z] INFO: registration_pending
+[2025-05-18T17:08:48.714Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 174557
+[2025-05-18T17:08:48.715Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:08:48.733Z] INFO: email_verified
+[2025-05-18T17:08:57.500Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:08:57.574Z] INFO: http://localhost:3000/login
+[2025-05-18T17:08:57.574Z] INFO: Password: test / Password Hash: $2b$10$EsgscoUABAFaxUG3EVqv9.aNx4vOc0J0QdIGv/3Iz60x2tAAsSycm
+[2025-05-18T17:11:48.810Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:11:48.814Z] INFO: http://localhost:3000/register
+[2025-05-18T17:11:48.814Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:11:49.287Z] INFO: registration_pending
+[2025-05-18T17:12:00.845Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 282493
+[2025-05-18T17:12:00.846Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:12:00.858Z] INFO: email_verified
+[2025-05-18T17:12:10.173Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:12:10.174Z] INFO: http://localhost:3000/login
+[2025-05-18T17:12:10.175Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:12:10.537Z] INFO: login_otp_sent
+[2025-05-18T17:13:37.076Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:13:37.079Z] INFO: http://localhost:3000/login
+[2025-05-18T17:13:37.079Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:13:37.568Z] INFO: login_otp_sent
+[2025-05-18T17:13:47.323Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 667233
+[2025-05-18T17:13:47.324Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:13:47.330Z] INFO: email_verified

@@ -15,3 +15,7 @@
 2025-05-18 14:09:33,923 INFO: [33mPress CTRL+C to quit[0m
 2025-05-18 14:12:01,487 INFO: [UPLOAD] Stored file 'A' in Redis
 2025-05-18 14:12:01,488 INFO: 127.0.0.1 - - [18/May/2025 14:12:01] "POST /upload HTTP/1.1" 200 -
+2025-05-18 21:58:49,641 INFO: Starting Redis-backed Data Server on port 4000
+2025-05-18 21:58:49,647 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4000
+2025-05-18 21:58:49,647 INFO: [33mPress CTRL+C to quit[0m
