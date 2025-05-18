@@ -38,3 +38,18 @@
 2025-05-18 11:48:00,240 INFO: [GET_PUBLIC_KEY] sid: 92995474
 2025-05-18 11:48:00,611 INFO: 127.0.0.1 - - [18/May/2025 11:48:00] "POST /get_public_key HTTP/1.1" 200 -
 2025-05-18 11:48:04,043 INFO: 127.0.0.1 - - [18/May/2025 11:48:04] "POST /get_private_key HTTP/1.1" 200 -
+2025-05-18 14:08:29,875 INFO: Flushing Redis database for a clean start...
+2025-05-18 14:08:29,879 INFO: Starting KMS Server with Redis on port 3000
+2025-05-18 14:08:29,880 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3000
+2025-05-18 14:08:29,880 INFO: [33mPress CTRL+C to quit[0m
+2025-05-18 14:08:58,708 INFO: [EMAIL] Sending verification OTP to abc0975773694@gmail.com: 230385
+2025-05-18 14:08:59,022 INFO: 127.0.0.1 - - [18/May/2025 14:08:59] "POST /register HTTP/1.1" 200 -
+2025-05-18 14:09:05,561 INFO: 127.0.0.1 - - [18/May/2025 14:09:05] "POST /verify_email HTTP/1.1" 200 -
+2025-05-18 14:09:11,231 INFO: [EMAIL] Login OTP to abc0975773694@gmail.com: 972829
+2025-05-18 14:09:11,363 INFO: 127.0.0.1 - - [18/May/2025 14:09:11] "POST /login HTTP/1.1" 200 -
+2025-05-18 14:09:20,572 INFO: [SESSION] Generated sid: 30298175
+2025-05-18 14:09:20,573 INFO: 127.0.0.1 - - [18/May/2025 14:09:20] "POST /verify_otp HTTP/1.1" 200 -
+2025-05-18 14:09:26,906 INFO: [GET_PUBLIC_KEY] sid: 30298175
+2025-05-18 14:09:27,900 INFO: 127.0.0.1 - - [18/May/2025 14:09:27] "POST /get_public_key HTTP/1.1" 200 -
+2025-05-18 14:09:32,234 INFO: 127.0.0.1 - - [18/May/2025 14:09:32] "POST /get_private_key HTTP/1.1" 200 -

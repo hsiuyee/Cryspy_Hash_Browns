@@ -11,28 +11,22 @@ def prompt(msg):
     return input(msg).strip()
 
 
-def get_session_id():
-    return prompt("Enter sid: ")
-
-
-def upload_file(sid):
+def upload_file():
     filename = prompt("Enter filename to upload: ")
     data = prompt("Enter encrypted data: ")
     key = prompt("Enter encrypted AES key: ")
     res = requests.post(
         f"{API_BASE}/upload",
         json={"file_name": filename, "encrypted_data": data, "encrypted_aes_key": key},
-        headers={"sid": sid}
     )
     print("Upload response:", res.json())
 
 
-def download_file(sid):
+def download_file():
     filename = prompt("Enter filename to download: ")
     res = requests.get(
         f"{API_BASE}/download",
         params={"file_name": filename},
-        headers={"sid": sid}
     )
     print("Download response:", res.json())
 
@@ -53,10 +47,8 @@ def main():
         if choice == 'q':
             sys.exit(0)
         if choice in actions:
-            sid = get_session_id()
-            print(f"Using sid: {sid}")
             _, func = actions[choice]
-            func(sid)
+            func()
         else:
             print("Invalid choice.")
 

@@ -26,16 +26,6 @@ app = Flask(__name__)
 CORS(app)
 
 # === Utilities ===
-def validate_session():
-    sid = request.headers.get('sid')
-    log(f"[VALIDATE_SESSION] Incoming sid: {sid}")
-    # Retrieve session from Redis
-    email = r.hget('sessions', sid)
-    log(f"[VALIDATE_SESSION] Redis sessions: {r.hgetall('sessions')}")
-    if not sid or not email:
-        return False, jsonify({'error': 'invalid_session'})
-    return True, email.decode()
-
 # File data operations using Redis hash 'filedata:{file_name}'
 def file_exists(fname):
     return r.exists(f"filedata:{fname}")
@@ -58,10 +48,6 @@ def get_file(fname):
 
 @app.route('/upload', methods=['POST'])
 def upload():
-    valid, user = validate_session()
-    if not valid:
-        return user  # contains jsonify error
-
     data = request.get_json()
     fname = data.get('file_name')
     edata = data.get('encrypted_data')
@@ -74,21 +60,17 @@ def upload():
         return jsonify({'error': 'file_exists'})
 
     save_file(fname, edata, ekey)
-    log(f"[UPLOAD] User '{user}' stored file '{fname}' in Redis")
+    log(f"[UPLOAD] Stored file '{fname}' in Redis")
     return jsonify({'status': 'upload_success'})
 
 @app.route('/download', methods=['GET'])
 def download():
-    valid, user = validate_session()
-    if not valid:
-        return user
-
     fname = request.args.get('file_name')
     rec = get_file(fname)
     if not rec:
         return jsonify({'error': 'file_not_found'})
 
-    log(f"[DOWNLOAD] User '{user}' retrieved file '{fname}' from Redis")
+    log(f"[DOWNLOAD] Retrieved file '{fname}' from Redis")
     return jsonify({
         'encrypted_data': rec['encrypted_data'],
         'encrypted_aes_key': rec['encrypted_aes_key']
