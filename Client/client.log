@@ -126,3 +126,31 @@
 [2025-05-18T17:13:47.323Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 667233
 [2025-05-18T17:13:47.324Z] INFO: http://localhost:3000/verify_email
 [2025-05-18T17:13:47.330Z] INFO: email_verified
+[2025-05-18T17:23:45.938Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:23:45.941Z] INFO: http://localhost:3000/register
+[2025-05-18T17:23:45.941Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:23:46.490Z] INFO: registration_pending
+[2025-05-18T17:24:06.855Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 691630
+[2025-05-18T17:24:06.856Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:24:06.873Z] INFO: email_verified
+[2025-05-18T17:24:17.397Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: testtest
+[2025-05-18T17:24:17.398Z] INFO: http://localhost:3000/login
+[2025-05-18T17:24:17.399Z] INFO: Password: testtest / Password Hash: testtest
+[2025-05-18T17:24:18.999Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:24:18.999Z] INFO: http://localhost:3000/login
+[2025-05-18T17:24:18.999Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:24:20.374Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:24:20.375Z] INFO: http://localhost:3000/login
+[2025-05-18T17:24:20.375Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:24:20.919Z] INFO: login_otp_sent
+[2025-05-18T17:24:21.216Z] INFO: login_otp_sent
+[2025-05-18T17:24:34.553Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 628476
+[2025-05-18T17:24:34.553Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:24:34.562Z] INFO: email_verified
+[2025-05-18T17:26:15.880Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-18T17:26:15.885Z] INFO: http://localhost:3000/login
+[2025-05-18T17:26:15.886Z] INFO: Password: test / Password Hash: test
+[2025-05-18T17:26:16.379Z] INFO: login_otp_sent
+[2025-05-18T17:26:28.531Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 981386
+[2025-05-18T17:26:28.531Z] INFO: http://localhost:3000/verify_email
+[2025-05-18T17:26:28.548Z] INFO: email_verified
