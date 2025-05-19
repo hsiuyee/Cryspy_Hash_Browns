@@ -10,6 +10,7 @@ from fastapi.responses import JSONResponse
 from email.mime.text import MIMEText
 from Crypto.PublicKey import RSA
 import redis
+import bcrypt
 
 # === Setup logging ===
 logging.basicConfig(
@@ -45,7 +46,7 @@ SENDER_PASS = 'A131710916a@'
 # === Models ===
 class RegisterRequest(BaseModel):
     email: str
-    password_hash: str
+    password: str
 
 class OTPVerifyRequest(BaseModel):
     email: str
@@ -53,7 +54,7 @@ class OTPVerifyRequest(BaseModel):
 
 class LoginRequest(BaseModel):
     email: str
-    password_hash: str
+    password: str
 
 class FileNameRequest(BaseModel):
     file_name: str
@@ -96,6 +97,11 @@ def get_pending(email):
     if not r.exists(key): return None
     return r.hgetall(key)
 
+def get_user_password_hash(email):
+    key = f"user:{email}"
+    if not r.exists(key): return None
+    return r.hget(key, "password_hash").decode()
+
 def clear_pending(email):
     r.delete(f"pending:{email}")
 
@@ -134,8 +140,9 @@ async def register(req: RegisterRequest):
     if get_user(req.email) or r.exists(f"pending:{req.email}"):
         log(f"[REGISTER] User {req.email} already exists (status_code: 400)")
         return JSONResponse(content={"code": 400, "message": "user_exists"})
+    password_hash = bcrypt.hashpw(req.password.encode(), bcrypt.gensalt()).decode()
     otp = gen_otp()
-    save_pending(req.email, req.password_hash, otp)
+    save_pending(req.email, password_hash, otp)
     log(f"[EMAIL] Sending verification OTP to {req.email}: {otp}")
     send_otp_to_email(req.email, otp)
     log(f"[REGISTER] OTP sent to {req.email}: {otp}")
@@ -157,12 +164,12 @@ async def verify_register(req: OTPVerifyRequest):
 
 @app.post("/login")
 async def login(req: LoginRequest):
-    user = get_user(req.email)
-    if not user or user[b"password_hash"].decode() != req.password_hash:
+    stored_hash = get_user_password_hash(req.email)
+    if not stored_hash or not bcrypt.checkpw(req.password.encode(), stored_hash.encode()):
         log(f"[LOGIN] Login failed for {req.email} (status_code: 401)")
         return JSONResponse(content={"code": 401, "message": "login_failed"})
     otp = gen_otp()
-    save_pending(req.email, req.password_hash, otp)
+    save_pending(req.email, stored_hash, otp)
     log(f"[EMAIL] Login OTP to {req.email}: {otp}")
     send_otp_to_email(req.email, otp)
     log(f"[LOGIN] OTP sent to {req.email}: {otp}")

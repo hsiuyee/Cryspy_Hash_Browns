@@ -1,0 +1,14 @@
+2025-05-19 09:03:42,465 INFO: Flushing Redis database for a clean start...
+2025-05-19 09:31:08,869 INFO: [EMAIL] Sending verification OTP to abc0975773694@gmail.com: 773409
+2025-05-19 09:31:09,103 INFO: [REGISTER] OTP sent to abc0975773694@gmail.com: 773409
+2025-05-19 09:33:00,099 INFO: [REGISTER] User abc0975773694@gmail.com verified (status_code: 200)
+2025-05-19 09:34:26,435 INFO: [REGISTER] User abc0975773694@gmail.com already exists (status_code: 400)
+2025-05-19 09:34:50,525 INFO: [REGISTER] User abc0975773694@gmail.com already exists (status_code: 400)
+2025-05-19 09:37:52,409 INFO: [EMAIL] Sending verification OTP to abc0975773694@gmail.com: 833412
+2025-05-19 09:37:52,545 INFO: [REGISTER] OTP sent to abc0975773694@gmail.com: 833412
+2025-05-19 09:38:20,911 INFO: [REGISTER] User abc0975773694@gmail.com verified (status_code: 200)
+2025-05-19 09:38:33,051 INFO: [EMAIL] Login OTP to abc0975773694@gmail.com: 637806
+2025-05-19 09:38:34,146 INFO: [LOGIN] OTP sent to abc0975773694@gmail.com: 637806
+2025-05-19 09:38:59,016 INFO: [LOGIN] OTP failed for abc0975773694@gmail.com (status_code: 401)
+2025-05-19 09:39:42,492 INFO: [SESSION] Generated sid: 59222411
+2025-05-19 09:39:42,493 INFO: [LOGIN] Login success for abc0975773694@gmail.com (status_code: 200)
