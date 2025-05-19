@@ -31,6 +31,8 @@
             const msg = document.getElementById('otpMsg');
             if (result.success) {
                 msg.innerHTML = "OTP verified! Back to login page...";
+                msg.style.color = "green";
+                sessionStorage.setItem('sid', result.sid);
                 setTimeout(() => {
                     window.location.href = "login.html";
                 }, 2000);

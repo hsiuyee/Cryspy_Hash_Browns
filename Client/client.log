@@ -323,3 +323,342 @@
 [2025-05-18T20:30:38.881Z] INFO: http://localhost:3000/get_public_key
 [2025-05-18T20:30:39.560Z] INFO: Successfully ask KMS Public Key
 [2025-05-18T20:30:39.561Z] INFO: http://localhost:4000/upload
+[2025-05-19T15:30:21.248Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:30:21.249Z] INFO: undefinedregister
+[2025-05-19T15:30:26.720Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:30:26.721Z] INFO: undefinedregister
+[2025-05-19T15:32:26.976Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:32:26.978Z] INFO: undefinedregister
+[2025-05-19T15:33:16.849Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:33:16.852Z] INFO: http://localhost:3000/register
+[2025-05-19T15:33:17.349Z] INFO: undefined
+[2025-05-19T15:35:04.779Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:35:04.781Z] INFO: http://localhost:3000/register
+[2025-05-19T15:35:04.912Z] INFO: undefined
+[2025-05-19T15:35:29.228Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 958250
+[2025-05-19T15:35:29.229Z] INFO: http://localhost:3000/verify_register
+[2025-05-19T15:35:29.235Z] INFO: undefined
+[2025-05-19T15:35:38.843Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:35:38.843Z] INFO: http://localhost:3000/login
+[2025-05-19T15:35:39.132Z] INFO: undefined
+[2025-05-19T15:35:50.643Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 941591
+[2025-05-19T15:35:50.643Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:35:50.650Z] INFO: undefined / SID=56710020
+[2025-05-19T15:35:57.825Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:35:57.827Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:35:58.151Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:35:58.152Z] INFO: http://localhost:4000/upload
+[2025-05-19T15:39:36.002Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:39:36.005Z] INFO: http://localhost:3000/login
+[2025-05-19T15:39:36.341Z] INFO: undefined
+[2025-05-19T15:39:44.329Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 979751
+[2025-05-19T15:39:44.329Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:39:44.348Z] INFO: undefined / SID=44197092
+[2025-05-19T15:39:49.486Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:39:49.488Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:39:49.493Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:43:23.540Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:43:23.542Z] INFO: http://localhost:3000/login
+[2025-05-19T15:43:23.956Z] INFO: undefined
+[2025-05-19T15:43:33.336Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 727726
+[2025-05-19T15:43:33.337Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:43:33.354Z] INFO: undefined / SID=95427840
+[2025-05-19T15:43:38.175Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:43:38.177Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:43:38.182Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:44:21.801Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:44:21.802Z] INFO: http://localhost:3000/login
+[2025-05-19T15:44:22.185Z] INFO: undefined
+[2025-05-19T15:44:50.944Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: a09796
+[2025-05-19T15:44:50.945Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:44:50.963Z] INFO: undefined / SID=undefined
+[2025-05-19T15:45:04.926Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:45:04.927Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:45:04.933Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:45:04.934Z] ERROR: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-05-19T15:51:17.196Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:51:17.198Z] INFO: http://localhost:3000/login
+[2025-05-19T15:51:17.535Z] INFO: undefined
+[2025-05-19T15:51:22.036Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: ffffff
+[2025-05-19T15:51:22.037Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:51:22.039Z] INFO: undefined / SID=undefined
+[2025-05-19T15:51:27.501Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:51:27.502Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:51:27.515Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:51:27.516Z] ERROR: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-05-19T15:53:08.734Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:53:08.736Z] INFO: http://localhost:3000/login
+[2025-05-19T15:53:09.130Z] INFO: undefined
+[2025-05-19T15:53:12.893Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: asdfsa
+[2025-05-19T15:53:12.894Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:53:12.896Z] INFO: otp_failed
+[2025-05-19T15:53:21.073Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 696703
+[2025-05-19T15:53:21.073Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:53:21.092Z] INFO: undefined / SID=95284138
+[2025-05-19T15:53:26.304Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:53:26.305Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:53:26.310Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:53:26.311Z] ERROR: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-05-19T15:56:18.189Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T15:56:18.191Z] INFO: http://localhost:3000/login
+[2025-05-19T15:56:18.660Z] INFO: undefined
+[2025-05-19T15:56:30.537Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 319690
+[2025-05-19T15:56:30.538Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T15:56:30.556Z] INFO: undefined / SID=26671705
+[2025-05-19T15:56:35.643Z] INFO: Upload Attempt File: README.md
+[2025-05-19T15:56:35.645Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T15:56:35.652Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T15:56:35.653Z] ERROR: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-05-19T16:00:27.964Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T16:00:27.967Z] INFO: http://localhost:3000/login
+[2025-05-19T16:00:39.463Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 759288
+[2025-05-19T16:00:39.464Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T16:00:39.482Z] INFO: login_success / SID=63635737
+[2025-05-19T16:00:44.264Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:00:44.265Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:00:44.269Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T16:00:44.270Z] INFO: KMS Public Key: undefined
+[2025-05-19T16:00:44.270Z] ERROR: Cannot read properties of undefined (reading 'slice')
+[2025-05-19T16:24:41.832Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T16:24:41.834Z] INFO: http://localhost:3000/login
+[2025-05-19T16:25:04.934Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 384441
+[2025-05-19T16:25:04.935Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T16:25:04.955Z] INFO: login_success / SID=29608888
+[2025-05-19T16:25:09.899Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:25:09.900Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:25:09.905Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T16:25:09.905Z] INFO: KMS Public Key: undefined
+[2025-05-19T16:25:09.906Z] ERROR: Cannot read properties of undefined (reading 'slice')
+[2025-05-19T16:27:28.726Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T16:27:28.728Z] INFO: http://localhost:3000/login
+[2025-05-19T16:27:39.548Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 508038
+[2025-05-19T16:27:39.548Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T16:27:39.555Z] INFO: login_success / SID=60026243
+[2025-05-19T16:27:44.999Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:27:45.000Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:27:47.498Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:27:47.498Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:27:54.210Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:27:54.211Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:32:56.337Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:32:56.337Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:33:40.517Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T16:33:40.520Z] INFO: http://localhost:3000/register
+[2025-05-19T16:33:53.297Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 246114
+[2025-05-19T16:33:53.297Z] INFO: http://localhost:3000/verify_register
+[2025-05-19T16:33:53.317Z] INFO: undefined
+[2025-05-19T16:34:12.131Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T16:34:12.131Z] INFO: http://localhost:3000/login
+[2025-05-19T16:34:23.380Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 279322
+[2025-05-19T16:34:23.380Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T16:34:23.387Z] INFO: login_success / SID=45717702
+[2025-05-19T16:34:28.268Z] INFO: Upload Attempt File: README.md
+[2025-05-19T16:34:28.269Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T16:34:28.660Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T16:34:28.660Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFqUHNCZ1Y4WFkyWVpQaWNKV2JTRgptUEdCbXZ4Y1M4M1p1S085SjhiaUhSVC9iUTF2Vkk3cUF4ZHN4YVB0ZmMxc3ZKdU5UYjdzU0VEYzczWU1ZdzkzClYvRFJzcDFvQmFJcFBwdHJiamdEUnRiR2VEQVBtRkdOK0drck9jeXBBR2paK0E1SU1mMXJWSFJZd3NXWXp2MlkKZS9vSkFEMWp5OE0vTDRCRU1TRnBBKyttWXJiVlMvMjh2Z0pNanI3bDd2L3c0MTZOeEs5SElCNjNzNzRId05VMwpoU1RzZzRQNGM1bUtQcjRBUm1ONDM0OFhzZkw3QXJQSGxYNUJSV2VEeTJTRzNZbFdIWmtONnZMeDgyVmo5czZuCnV0UThSRCttR2NNUC95TU1KaS82MkI5TG1DUmxjVmxuZUdtUUlmVVlFNnV3WGNLZ29WSlptQldRME1jL3pxSU8KU1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T16:34:28.660Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjPsBgV8XY2YZPicJWbSF
+mPGBmvxcS83ZuKO9J8biHRT/bQ1vVI7qAxdsxaPtfc1svJuNTb7sSEDc73YMYw93
+V/DRsp1oBaIpPptrbjgDRtbGeDAPmFGN+GkrOcypAGjZ+A5IMf1rVHRYwsWYzv2Y
+e/oJAD1jy8M/L4BEMSFpA++mYrbVS/28vgJMjr7l7v/w416NxK9HIB63s74HwNU3
+hSTsg4P4c5mKPr4ARmN4348XsfL7ArPHlX5BRWeDy2SG3YlWHZkN6vLx82Vj9s6n
+utQ8RD+mGcMP/yMMJi/62B9LmCRlcVlneGmQIfUYE6uwXcKgoVJZmBWQ0Mc/zqIO
+SQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T16:34:28.660Z] INFO: Successfully encrypt AES key
+[2025-05-19T16:34:28.660Z] INFO: Successfully encrypt IV
+[2025-05-19T16:34:28.660Z] INFO: http://localhost:4000/upload
+[2025-05-19T16:34:28.663Z] ERROR: Part3: AxiosError: Request failed with status code 422
+[2025-05-19T17:03:04.304Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:03:04.306Z] INFO: http://localhost:3000/register
+[2025-05-19T17:03:16.177Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 784562
+[2025-05-19T17:03:16.178Z] INFO: http://localhost:3000/verify_register
+[2025-05-19T17:03:16.195Z] INFO: undefined
+[2025-05-19T17:03:29.170Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:03:29.170Z] INFO: http://localhost:3000/login
+[2025-05-19T17:03:38.391Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 975019
+[2025-05-19T17:03:38.391Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:03:38.398Z] INFO: login_success / SID=99941275
+[2025-05-19T17:03:43.616Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:03:43.617Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:03:43.977Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:03:43.977Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzcUNCN0pPOTlDb3U5N0dsTlA2TwoyNDdXU24vS1hicW9ZVkltaWhDTUI3N1B3bndJQ0pOOWZpN25xTklhYi91YTFlWnRuak1DVmpQY2VSWitldVVECllpWTZHR3pnelBuSzN0eDdwVXZJY1dLNzc2U2kxVGF3ZlZuL0x5d0hIaFB1akxrb01SVkFWdndRSUJxNWMwblUKcklkNnBRcHZDMHZNNFRBL3h6ZXV5RGJXSHEzTm5jaHVXTURwSUsyYnFDSFFxdmczdlBOYURnNzdLY20vL25XeQpjYm9vOTZueWZCUTFXeDlBQWIyb1lDNE9wV1ZCOEZFVTRWZTJLcm8xTmd6d1BadEhZb29ralU5MGZObXhCbTZ2Cms5WmxESXRGVTd3WlNmTStPRWN0eHB1ZGxsSkV3V1pYZDA3djFvanpyWWtacFRNVXozZDlBbUJSbWJKYnp2L0EKeVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:03:43.978Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqCB7JO99Cou97GlNP6O
+247WSn/KXbqoYVImihCMB77PwnwICJN9fi7nqNIab/ua1eZtnjMCVjPceRZ+euUD
+YiY6GGzgzPnK3tx7pUvIcWK776Si1TawfVn/LywHHhPujLkoMRVAVvwQIBq5c0nU
+rId6pQpvC0vM4TA/xzeuyDbWHq3NnchuWMDpIK2bqCHQqvg3vPNaDg77Kcm//nWy
+cboo96nyfBQ1Wx9AAb2oYC4OpWVB8FEU4Ve2Kro1NgzwPZtHYookjU90fNmxBm6v
+k9ZlDItFU7wZSfM+OEctxpudllJEwWZXd07v1ojzrYkZpTMUz3d9AmBRmbJbzv/A
+yQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:03:43.978Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:03:43.978Z] INFO: Successfully encrypt IV
+[2025-05-19T17:03:43.978Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:03:43.981Z] ERROR: Part3: AxiosError: Request failed with status code 422
+[2025-05-19T17:05:35.520Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:05:35.522Z] INFO: http://localhost:3000/register
+[2025-05-19T17:05:49.330Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 352267
+[2025-05-19T17:05:49.331Z] INFO: http://localhost:3000/verify_register
+[2025-05-19T17:05:49.338Z] INFO: undefined
+[2025-05-19T17:05:59.092Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:05:59.092Z] INFO: http://localhost:3000/login
+[2025-05-19T17:06:08.103Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 606963
+[2025-05-19T17:06:08.103Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:06:08.110Z] INFO: login_success / SID=57406396
+[2025-05-19T17:06:13.337Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:06:13.338Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:06:13.433Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:06:13.433Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUEwRnRkVXBLVU94QlVxOENrdThZMAoxRWR3clFnVTZNblo5ZmR4ZEhXWUdTSzNBNUFpU3lIR0ZQWndhUjh5SUhnRjB5ckcrQ1VNZzl3OXl4czFxaG5hCktvaGMxMzZydnUrVlE0azFNV3dmRE9PL29qRitoQ1FBNG9WaVBBTW9lQ2NMbmw1RVhPWUFZUFhieWdZckhTOFgKVlpUQk9uMVQ5THo1eWduY0ZmUW1MU0RhNEJTNktkQnk2Wnhhb2gxVXpqbHp1alJjekxvOE1SMFlvekVVemtQYwpYdUpTek5ibDdseHRkQkdjaTJMMVN6aEpYVUVuTTdvYWlZMUZ5RHRyOS91R1RTNDlVaXlIWWtablRJeDM3d3o1ClpnNStHMkRZdlB2b3Z5bGhaOEg0Z1c0c3A2US9ESU9wWUpDQXhHMmZCNGNFeXdid25YY3dyRmNpQTZNTDBOaHAKeFFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:06:13.433Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0FtdUpKUOxBUq8Cku8Y0
+1EdwrQgU6MnZ9fdxdHWYGSK3A5AiSyHGFPZwaR8yIHgF0yrG+CUMg9w9yxs1qhna
+Kohc136rvu+VQ4k1MWwfDOO/ojF+hCQA4oViPAMoeCcLnl5EXOYAYPXbygYrHS8X
+VZTBOn1T9Lz5ygncFfQmLSDa4BS6KdBy6Zxaoh1UzjlzujRczLo8MR0YozEUzkPc
+XuJSzNbl7lxtdBGci2L1SzhJXUEnM7oaiY1FyDtr9/uGTS49UiyHYkZnTIx37wz5
+Zg5+G2DYvPvovylhZ8H4gW4sp6Q/DIOpYJCAxG2fB4cEywbwnXcwrFciA6ML0Nhp
+xQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:06:13.434Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:06:13.434Z] INFO: Successfully encrypt IV
+[2025-05-19T17:06:13.434Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:06:13.437Z] INFO: undefined
+[2025-05-19T17:29:11.730Z] INFO: Upload Attempt File: client.log
+[2025-05-19T17:29:11.731Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:29:11.919Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:29:11.919Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvekVPbGttckxmNjVXSzZlNEhVTwpGd0lkNmRjcTMvTFVoOWswNlRtR2lFT3FwQ3pqRTA3STFGRFdlN2djaG44alQ3Y1h3b3NsT3JMdGROR1hhMnk4ClF6Y3h0blNNYUpMZTZ2c1NCUG9DU2pwWUgya1dnT05LbE01ZXM0ZmlQdCtxNlUwVHV3OEJKanJqQnUyTjVOZkgKdUtURjVqSHFsWERwRHRWcG9NOGNVckd0SDF2dFJjUzBmRlhYTGhWb1Q3algxa3JyZDNWbFhOVzh0TWZoNVBNSwpiY1dvMmZRMy9qOWpJaDlnMmU5d255ZnRzNDByZzYxUWpqTGdjUHRrMlF3T3A4WmlaSjlyL21INTgrRG52WGIrCmt1b21MZGJuSDFIWWRickpGbjh2UGZJQkRCSllHeGVLeVpzcUR5bThIL2xXUk5YTWdveHQ3NmE5Y3VscmpCQzgKTndJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:29:11.919Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAozEOlkmrLf65WK6e4HUO
+FwId6dcq3/LUh9k06TmGiEOqpCzjE07I1FDWe7gchn8jT7cXwoslOrLtdNGXa2y8
+QzcxtnSMaJLe6vsSBPoCSjpYH2kWgONKlM5es4fiPt+q6U0Tuw8BJjrjBu2N5NfH
+uKTF5jHqlXDpDtVpoM8cUrGtH1vtRcS0fFXXLhVoT7jX1krrd3VlXNW8tMfh5PMK
+bcWo2fQ3/j9jIh9g2e9wnyfts40rg61QjjLgcPtk2QwOp8ZiZJ9r/mH58+DnvXb+
+kuomLdbnH1HYdbrJFn8vPfIBDBJYGxeKyZsqDym8H/lWRNXMgoxt76a9culrjBC8
+NwIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:29:11.919Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:29:11.919Z] INFO: Successfully encrypt IV
+[2025-05-19T17:29:11.920Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:29:11.923Z] INFO: undefined
+[2025-05-19T17:29:16.038Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:29:16.039Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:29:18.102Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:29:18.103Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:34:14.115Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:34:14.118Z] INFO: http://localhost:3000/login
+[2025-05-19T17:34:23.781Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 584698
+[2025-05-19T17:34:23.781Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:34:23.804Z] INFO: login_success / SID=48335256
+[2025-05-19T17:34:31.643Z] INFO: Upload Attempt File: preload.js
+[2025-05-19T17:34:31.644Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:34:32.149Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:34:32.149Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUEwaFhWZWwvU0lLVGJJd0ZRWlFrWApmOHltNDFVUCtVc1MwOXpiLzl3K3RnWndvY0pBY1hEdUIvS2lxYUEvUmN1VThWR0dsOExCcVB4T2lQUGpxWVp5ClptblpRb0ZEaThFVnhldnBWQ1BtUkExT1IzdUVQZG15cGlhMEVlVDRTUnpFdXFzRVh6a2JPb3pBVS90aTc5cGEKUWxlc3E0aldVT1pYdXlQRHZRNkhiSEliQUpwazhja1VEM0s4MCtRT3ZXUk9Ob0hPK0diU210TzlqdldIRzQ3Ygo3Unh4SnBlQTY2OHl3UDh6UTlUNy9tVmRkOTJDdnBPRG5ZaFAwMmpjQXNJc1Nra2MyU2Z1dlJYT0hyTmpwZUp5CmlkNmEyQTlGQmdEcGJwcU9BWDBBMm1hSllRMUNtN1RqSHBSc21LdFVMUzZFaC9UYUk0SWk5dkJJS0tpQ1k3VXMKVXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:34:32.149Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hXVel/SIKTbIwFQZQkX
+f8ym41UP+UsS09zb/9w+tgZwocJAcXDuB/KiqaA/RcuU8VGGl8LBqPxOiPPjqYZy
+ZmnZQoFDi8EVxevpVCPmRA1OR3uEPdmypia0EeT4SRzEuqsEXzkbOozAU/ti79pa
+Qlesq4jWUOZXuyPDvQ6HbHIbAJpk8ckUD3K80+QOvWRONoHO+GbSmtO9jvWHG47b
+7RxxJpeA668ywP8zQ9T7/mVdd92CvpODnYhP02jcAsIsSkkc2SfuvRXOHrNjpeJy
+id6a2A9FBgDpbpqOAX0A2maJYQ1Cm7TjHpRsmKtULS6Eh/TaI4Ii9vBIKKiCY7Us
+UwIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:34:32.150Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:34:32.150Z] INFO: Successfully encrypt IV
+[2025-05-19T17:34:32.150Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:34:32.152Z] INFO: Successfully upload file: preload.js
+[2025-05-19T17:34:35.953Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:34:35.953Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:37:34.949Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:37:34.951Z] INFO: http://localhost:3000/login
+[2025-05-19T17:37:49.615Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 837875
+[2025-05-19T17:37:49.615Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:37:49.623Z] INFO: login_success / SID=83988455
+[2025-05-19T17:37:54.995Z] INFO: Upload Attempt File: client.log
+[2025-05-19T17:37:54.997Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:38:44.802Z] INFO: Upload Attempt File: preload.js
+[2025-05-19T17:38:44.802Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:39:02.464Z] INFO: Upload Attempt File: package.json
+[2025-05-19T17:39:02.464Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:39:02.801Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:39:02.801Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFxNHp2czE5Znprb0E4Y3RLck9BYwpkL2NGWTdwU2FDcVFxUzZ5bU9GUFBoZjZFS25vYU0zN21VSFhoQXRCYlM3bE1VZnY3dmlyYkFxNmd4K284d3RvCmpGOUg2YXZlOEl1bXZzMU9oNTZQcFZSRzBLekRvRExydi94VFB3eS9sTC8wYWZGRXlCbTd5cWxBWmJsUUlOT1AKUWloY3ZxT3pQWlpPS2tXR0xrSE5RUi9wR2N2RzNTSWdwUEZ0dHlhMXZQdWdFUzJZaEpBOWZEL0lWNzZWdDgzYgp0cDdWQTNoSjlraUV2MURLak4zbVVlQXNoYlVEYUJBejZEa3JHREoxUnhGRnNHUmNRUE5aaHVhTWJPRDJEdTlhCnJZdnd5TmV6blJiN0RUWGdGSTdHaktabVZmd1ZOYjlCTFB0RFFmWnBCTXpCOEMyNlZvMDlrTWdVUUxDSENBYWgKZVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:39:02.801Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq4zvs19fzkoA8ctKrOAc
+d/cFY7pSaCqQqS6ymOFPPhf6EKnoaM37mUHXhAtBbS7lMUfv7virbAq6gx+o8wto
+jF9H6ave8Iumvs1Oh56PpVRG0KzDoDLrv/xTPwy/lL/0afFEyBm7yqlAZblQINOP
+QihcvqOzPZZOKkWGLkHNQR/pGcvG3SIgpPFttya1vPugES2YhJA9fD/IV76Vt83b
+tp7VA3hJ9kiEv1DKjN3mUeAshbUDaBAz6DkrGDJ1RxFFsGRcQPNZhuaMbOD2Du9a
+rYvwyNeznRb7DTXgFI7GjKZmVfwVNb9BLPtDQfZpBMzB8C26Vo09kMgUQLCHCAah
+eQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:39:02.802Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:39:02.802Z] INFO: Successfully encrypt IV
+[2025-05-19T17:39:02.802Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:39:02.805Z] INFO: Successfully upload file: package.json
+[2025-05-19T17:39:49.869Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:39:49.871Z] INFO: http://localhost:3000/login
+[2025-05-19T17:39:57.821Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 122562
+[2025-05-19T17:39:57.821Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:39:57.842Z] INFO: login_success / SID=97153865
+[2025-05-19T17:40:05.861Z] INFO: Upload Attempt File: package-lock.json
+[2025-05-19T17:40:05.863Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:40:06.151Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:40:06.152Z] ERROR: Cannot access 'response' before initialization
+[2025-05-19T17:40:22.256Z] INFO: Upload Attempt File: main.js
+[2025-05-19T17:40:22.257Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:40:22.337Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:40:22.337Z] ERROR: Cannot access 'response' before initialization
+[2025-05-19T17:47:00.506Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:47:00.509Z] INFO: http://localhost:3000/login
+[2025-05-19T17:47:21.612Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 851444
+[2025-05-19T17:47:21.613Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:47:21.624Z] INFO: login_success / SID=82938618
+[2025-05-19T17:47:27.225Z] INFO: Upload Attempt File: README.md
+[2025-05-19T17:47:27.226Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:47:34.698Z] INFO: Upload Attempt File: logger.js
+[2025-05-19T17:47:34.698Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:47:34.902Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:47:34.902Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFsNjVGdUVrTGxSOWFkNEEyMUhaYwpmZHJiaWVEVG0yR0prUkIzc2F5ejZjYjdMWmc1S1hoQVI2TlpnSjd4ZVFEU1VyalhwNnJjVkgvR3RzN1NrQTVxCkdsbW82amQ3cHM3M2lZRUpweDJBcm5rL01OQ2ZnQStqV1ZERnlzL0wyNktlb1FDM2o1QS9zWnBEOERjYkJpZ2cKZlNDR1ZIblpFNFJOR0xFZWdhbGV4NG1OeXMrdS9XTWd0Q1VaL0JCdEtBQm9GZlBBYmsxbGs0NlZIYVlJaFVXagpuUU1TQTM3bHIzYWxmSThqODdsT0x4TWZhUnFINnlERGpYbnlKYkpNMlV1TUZHdVlDWW4yUkQ1RzZMSVBaL0F5ClJXTXVrY3lJUURvb1NRd1kzRCszUlQvaDY3M0xKM3dsWE5leW5rZU0xSFhxV0MzMGhRV3ZsSzJZOEpzU2VlaHIKSVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:47:34.903Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl65FuEkLlR9ad4A21HZc
+fdrbieDTm2GJkRB3sayz6cb7LZg5KXhAR6NZgJ7xeQDSUrjXp6rcVH/Gts7SkA5q
+Glmo6jd7ps73iYEJpx2Arnk/MNCfgA+jWVDFys/L26KeoQC3j5A/sZpD8DcbBigg
+fSCGVHnZE4RNGLEegalex4mNys+u/WMgtCUZ/BBtKABoFfPAbk1lk46VHaYIhUWj
+nQMSA37lr3alfI8j87lOLxMfaRqH6yDDjXnyJbJM2UuMFGuYCYn2RD5G6LIPZ/Ay
+RWMukcyIQDooSQwY3D+3RT/h673LJ3wlXNeynkeM1HXqWC30hQWvlK2Y8JsSeehr
+IQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:47:34.903Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:47:34.903Z] INFO: Successfully encrypt IV
+[2025-05-19T17:47:34.903Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:47:34.907Z] INFO: Successfully upload file: logger.js
+[2025-05-19T17:51:10.676Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:51:10.678Z] INFO: http://localhost:3000/login
+[2025-05-19T17:51:20.381Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 401573
+[2025-05-19T17:51:20.382Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:51:20.400Z] INFO: login_success / SID=68845095
+[2025-05-19T17:51:25.414Z] INFO: Upload Attempt File: preload.js
+[2025-05-19T17:51:25.415Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:52:53.143Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-19T17:52:53.145Z] INFO: http://localhost:3000/login
+[2025-05-19T17:53:02.134Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 856599
+[2025-05-19T17:53:02.135Z] INFO: http://localhost:3000/verify_login
+[2025-05-19T17:53:02.152Z] INFO: login_success / SID=85538186
+[2025-05-19T17:53:11.108Z] INFO: Upload Attempt File: logger.js
+[2025-05-19T17:53:11.109Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:53:17.507Z] INFO: Upload Attempt File: file.js
+[2025-05-19T17:53:17.508Z] INFO: http://localhost:3000/get_public_key
+[2025-05-19T17:53:17.630Z] INFO: Successfully ask KMS Public Key
+[2025-05-19T17:53:17.630Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFud2dqYS9JK2Y2YStLcGhKcEd3agorY2daUHBMYzdFT3liTW9CWEc1VWJua3VQTThKWG8xSUN1cmdwL2xGaGtuclkwR3I1R09HOUtIN3pTZkEveWs3CmRFQ3Y5VFU5NmdmV3hQMElyS1JjaVRvUEt4S2s0MVI2MzkxY3BseUhQVDJwc2xWK05aOVdLZ0hmT2pNa2RzM0oKbitzNDNJcjJGS09ScDMwVGxQVm5Wa1loZE9Eb1RzdGxrbGR0YjlBWkdWYzl0Ykh3Yml0Q2xjYjUyQXk1bmhzcwp6VWJzdmtkSXRMU1dHbWpuclptcFBGV3d0Z0Rvb1g5SGtiTGZKZG52alAvTEtDUTU3ZlEvTmYrUUlGWWI0WFd3CnJTR3p4RXR4VUwrSFI0cmM1cnBsTmJyWFM5a0Roa3hXMDd1MlErMnBIVGk2Q2pWSlk0cGRiMWp2Zmp0WlA4WFgKQ1FJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-19T17:53:17.631Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnwgja/I+f6a+KphJpGwj
++cgZPpLc7EOybMoBXG5UbnkuPM8JXo1ICurgp/lFhknrY0Gr5GOG9KH7zSfA/yk7
+dECv9TU96gfWxP0IrKRciToPKxKk41R6391cplyHPT2pslV+NZ9WKgHfOjMkds3J
+n+s43Ir2FKORp30TlPVnVkYhdODoTstlkldtb9AZGVc9tbHwbitClcb52Ay5nhss
+zUbsvkdItLSWGmjnrZmpPFWwtgDooX9HkbLfJdnvjP/LKCQ57fQ/Nf+QIFYb4XWw
+rSGzxEtxUL+HR4rc5rplNbrXS9kDhkxW07u2Q+2pHTi6CjVJY4pdb1jvfjtZP8XX
+CQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-19T17:53:17.631Z] INFO: Successfully encrypt AES key
+[2025-05-19T17:53:17.631Z] INFO: Successfully encrypt IV
+[2025-05-19T17:53:17.631Z] INFO: http://localhost:4000/upload
+[2025-05-19T17:53:17.635Z] INFO: Successfully upload file: file.js

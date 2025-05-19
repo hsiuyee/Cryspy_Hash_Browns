@@ -8,7 +8,7 @@ function goToLogin() {
 
 document.getElementById("uploadForm").addEventListener("submit", async (e) => {
     e.preventDefault();
-    const file = document.getElementById("fileInput").files[0];
+    const file = document.getElementById("fileInput").files[0]; 
     const sid = sessionStorage.getItem('sid');
 
     const arrayBuffer = await file.arrayBuffer(); 

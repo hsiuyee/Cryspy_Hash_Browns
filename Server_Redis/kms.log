@@ -125,3 +125,4 @@
 2025-05-19 01:11:48,952 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 282493
 2025-05-19 01:12:10,186 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 422483
 2025-05-19 01:13:37,223 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 667233
+2025-05-19 23:25:24,881 INFO: Flushing Redis database for a clean start...

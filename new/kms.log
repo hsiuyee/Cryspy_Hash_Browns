@@ -12,3 +12,83 @@
 2025-05-19 09:38:59,016 INFO: [LOGIN] OTP failed for abc0975773694@gmail.com (status_code: 401)
 2025-05-19 09:39:42,492 INFO: [SESSION] Generated sid: 59222411
 2025-05-19 09:39:42,493 INFO: [LOGIN] Login success for abc0975773694@gmail.com (status_code: 200)
+2025-05-19 23:28:54,713 INFO: Flushing Redis database for a clean start...
+2025-05-19 23:28:54,715 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-19 23:33:17,059 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 958250
+2025-05-19 23:33:17,336 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 958250
+2025-05-19 23:35:04,909 INFO: [REGISTER] User a0979608003@gmail.com already exists (status_code: 400)
+2025-05-19 23:35:29,235 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-19 23:35:39,000 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 941591
+2025-05-19 23:35:39,128 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 941591
+2025-05-19 23:35:50,646 INFO: [SESSION] Generated sid: 56710020
+2025-05-19 23:35:50,648 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-19 23:35:58,150 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-19 23:39:36,218 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 979751
+2025-05-19 23:39:36,330 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 979751
+2025-05-19 23:39:44,344 INFO: [SESSION] Generated sid: 44197092
+2025-05-19 23:39:44,345 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-19 23:39:49,491 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-19 23:43:23,832 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 727726
+2025-05-19 23:43:23,946 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 727726
+2025-05-19 23:43:33,351 INFO: [SESSION] Generated sid: 95427840
+2025-05-19 23:43:33,352 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-19 23:43:38,180 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-19 23:44:22,053 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 845458
+2025-05-19 23:44:22,178 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 845458
+2025-05-19 23:44:50,961 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-19 23:45:04,930 INFO: [GET_PUBLIC_KEY] Invalid session for undefined (status_code: 403)
+2025-05-19 23:51:17,411 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 647810
+2025-05-19 23:51:17,523 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 647810
+2025-05-19 23:51:22,038 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-19 23:51:27,513 INFO: [GET_PUBLIC_KEY] Invalid session for undefined (status_code: 403)
+2025-05-19 23:53:08,980 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 696703
+2025-05-19 23:53:09,119 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 696703
+2025-05-19 23:53:12,895 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-19 23:53:21,088 INFO: [SESSION] Generated sid: 95284138
+2025-05-19 23:53:21,090 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-19 23:53:26,308 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-19 23:56:18,381 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 319690
+2025-05-19 23:56:18,650 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 319690
+2025-05-19 23:56:30,553 INFO: [SESSION] Generated sid: 26671705
+2025-05-19 23:56:30,555 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-19 23:56:35,649 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:00:28,168 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 759288
+2025-05-20 00:00:28,288 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 759288
+2025-05-20 00:00:39,479 INFO: [SESSION] Generated sid: 63635737
+2025-05-20 00:00:39,481 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 00:00:44,268 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:24:42,092 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 384441
+2025-05-20 00:24:42,377 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 384441
+2025-05-20 00:25:04,952 INFO: [SESSION] Generated sid: 29608888
+2025-05-20 00:25:04,954 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 00:25:09,903 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:27:28,926 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 508038
+2025-05-20 00:27:29,045 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 508038
+2025-05-20 00:27:39,552 INFO: [SESSION] Generated sid: 60026243
+2025-05-20 00:27:39,553 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 00:27:45,016 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:27:47,501 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:27:54,214 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 00:32:56,342 INFO: [GET_PUBLIC_KEY] Invalid session for 60026243 (status_code: 403)
+2025-05-20 00:33:21,589 INFO: Flushing Redis database for a clean start...
+2025-05-20 00:33:21,590 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-20 00:33:40,816 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 246114
+2025-05-20 00:33:41,146 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 246114
+2025-05-20 00:33:53,314 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-20 00:34:12,289 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 279322
+2025-05-20 00:34:12,554 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 279322
+2025-05-20 00:34:23,383 INFO: [SESSION] Generated sid: 45717702
+2025-05-20 00:34:23,385 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 00:34:28,658 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-20 01:02:39,570 INFO: Flushing Redis database for a clean start...
+2025-05-20 01:02:39,572 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-20 01:03:04,554 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 784562
+2025-05-20 01:03:04,668 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 784562
+2025-05-20 01:03:16,194 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-20 01:03:29,321 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 975019
+2025-05-20 01:03:29,439 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 975019
+2025-05-20 01:03:38,394 INFO: [SESSION] Generated sid: 99941275
+2025-05-20 01:03:38,396 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:03:43,976 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-20 01:05:22,736 INFO: Flushing Redis database for a clean start...
+2025-05-20 01:05:22,738 INFO: Starting KMS Server with FastAPI on port 3000
