@@ -1,5 +1,6 @@
 # data_server.py
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import redis
@@ -20,7 +21,11 @@ def log(msg: str):
 r = redis.Redis(host="localhost", port=6379, db=0)
 
 # === FastAPI App ===
-app = FastAPI()
+app = FastAPI(
+    title="Data Server",
+    description="Encrypted file storage with AES data, key, and IV",
+    version="1.0.0"
+)
 
 # === CORS support ===
 app.add_middleware(
@@ -36,17 +41,22 @@ class UploadRequest(BaseModel):
     file_name: str
     encrypted_data: str
     encrypted_aes_key: str
+    encrypted_aes_initial_vector: str
 
 # === Utilities ===
-def file_exists(fname: str) -> bool:
-    return r.exists(f"filedata:{fname}")
 
-def save_file(fname: str, data: str, aes_key: str):
+def file_exists(fname: str) -> bool:
+    return r.exists(f"filedata:{fname}") == 1
+
+
+def save_file(fname: str, data: str, aes_key: str, iv: str):
     key = f"filedata:{fname}"
     r.hset(key, mapping={
         'encrypted_data': data,
-        'encrypted_aes_key': aes_key
+        'encrypted_aes_key': aes_key,
+        'encrypted_aes_iv': iv
     })
+
 
 def get_file(fname: str):
     key = f"filedata:{fname}"
@@ -58,28 +68,59 @@ def get_file(fname: str):
 # === Endpoints ===
 
 @app.post("/upload")
-async def upload_file(payload: UploadRequest):
-    if not payload.file_name or not payload.encrypted_data or not payload.encrypted_aes_key:
-        raise HTTPException(status_code=400, detail="missing_fields")
-
+async def upload(payload: UploadRequest):
+    # Validate all fields
+    if not payload.file_name or not payload.encrypted_data \
+       or not payload.encrypted_aes_key or not payload.encrypted_aes_initial_vector:
+        return JSONResponse(
+            status_code=400,
+            content={"code": 400, "message": "missing_fields"}
+        )
     if file_exists(payload.file_name):
-        raise HTTPException(status_code=409, detail="file_exists")
-
-    save_file(payload.file_name, payload.encrypted_data, payload.encrypted_aes_key)
-    log(f"[UPLOAD] Stored file '{payload.file_name}' in Redis")
-    return {"status": "upload_success"}
+        return JSONResponse(
+            status_code=409,
+            content={"code": 409, "message": "file_exists"}
+        )
+    save_file(
+        payload.file_name,
+        payload.encrypted_data,
+        payload.encrypted_aes_key,
+        payload.encrypted_aes_initial_vector
+    )
+    log(f"[UPLOAD] Stored file '{payload.file_name}' in Redis with IV")
+    return JSONResponse(
+        status_code=200,
+        content={"code": 200, "message": "upload_success"}
+    )
 
 @app.get("/download")
-async def download_file(file_name: str):
+async def download(file_name: str):
     record = get_file(file_name)
     if not record:
-        raise HTTPException(status_code=404, detail="file_not_found")
-
+        return JSONResponse(
+            status_code=404,
+            content={"code": 404, "message": "file_not_found"}
+        )
     log(f"[DOWNLOAD] Retrieved file '{file_name}' from Redis")
-    return {
-        "encrypted_data": record["encrypted_data"],
-        "encrypted_aes_key": record["encrypted_aes_key"]
-    }
+    return JSONResponse(
+        status_code=200,
+        content={
+            "code": 200,
+            "encrypted_data": record["encrypted_data"],
+            "encrypted_aes_key": record["encrypted_aes_key"],
+            "encrypted_aes_initial_vector": record["encrypted_aes_iv"]
+        }
+    )
+
+@app.get("/list_files")
+async def list_files():
+    keys = r.keys("filedata:*")
+    files = [k.decode().split("filedata:")[1] for k in keys]
+    log(f"[LIST_FILES] Returning {len(files)} files")
+    return JSONResponse(
+        status_code=200,
+        content={"code": 200, "files": files, "message": "list_files_success"}
+    )
 
 import uvicorn
 

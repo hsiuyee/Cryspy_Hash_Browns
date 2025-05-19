@@ -1,0 +1,5 @@
+2025-05-19 10:23:50,063 INFO: [UPLOAD] Stored file 'file_name' in Redis with IV
+2025-05-19 10:24:01,914 INFO: [DOWNLOAD] Retrieved file 'file_name' from Redis
+2025-05-19 10:24:14,984 INFO: [DOWNLOAD] Retrieved file 'file_name' from Redis
+2025-05-19 10:24:44,653 INFO: [DOWNLOAD] Retrieved file 'file_name' from Redis
+2025-05-19 10:24:51,933 INFO: [LIST_FILES] Returning 1 files
