@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>檔案列表</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #aaa;
+      padding: 10px 15px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table id="file-table">
+    <caption>檔案清單</caption>
+    <thead>
+      <tr>
+        <th>檔案名稱</th>
+      </tr>
+    </thead>
+    <tbody id="file-body">
+    </tbody>
+  </table>
+
+  <script src="../renderer/download.js"></script>
+</body>
+</html>

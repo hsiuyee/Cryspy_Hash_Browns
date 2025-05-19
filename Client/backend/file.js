@@ -99,4 +99,13 @@ async function handleUpload(event, {fileName, fileType, fileBuffer, sid}) {
     }
 }
 
-module.exports = { handleUpload };
+async function handleListFile(event, {sid}) {
+    logger.info(`List File Attempt`);
+
+}
+
+async function handleDownload(event, {fileName, sid}) {
+
+}
+
+module.exports = { handleUpload, handleListFile, handleDownload};

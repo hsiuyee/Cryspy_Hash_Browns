@@ -35,3 +35,5 @@ ipcMain.handle('otp_register', handleOTPRegister);
 
 // File operation 
 ipcMain.handle('upload', handleUpload);
+ipcMain.handle('list_file', handleListFile);
+ipcMain.handle('download', handleDownload);

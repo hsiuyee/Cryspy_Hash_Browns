@@ -92,3 +92,50 @@
 2025-05-20 01:03:43,976 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
 2025-05-20 01:05:22,736 INFO: Flushing Redis database for a clean start...
 2025-05-20 01:05:22,738 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-20 01:05:35,731 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 352267
+2025-05-20 01:05:36,049 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 352267
+2025-05-20 01:05:49,336 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-20 01:05:59,244 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 606963
+2025-05-20 01:05:59,533 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 606963
+2025-05-20 01:06:08,107 INFO: [SESSION] Generated sid: 57406396
+2025-05-20 01:06:08,108 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:06:13,432 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-20 01:29:11,917 INFO: [GET_PUBLIC_KEY] Public key saved for client.log (status_code: 200)
+2025-05-20 01:29:16,041 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 01:29:18,105 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 01:34:14,354 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 584698
+2025-05-20 01:34:14,467 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 584698
+2025-05-20 01:34:23,800 INFO: [SESSION] Generated sid: 48335256
+2025-05-20 01:34:23,802 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:34:32,147 INFO: [GET_PUBLIC_KEY] Public key saved for preload.js (status_code: 200)
+2025-05-20 01:34:35,956 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 01:37:35,168 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 837875
+2025-05-20 01:37:35,434 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 837875
+2025-05-20 01:37:49,622 INFO: [SESSION] Generated sid: 83988455
+2025-05-20 01:37:49,622 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:37:55,000 INFO: [GET_PUBLIC_KEY] File client.log already exists (status_code: 400)
+2025-05-20 01:38:44,806 INFO: [GET_PUBLIC_KEY] File preload.js already exists (status_code: 400)
+2025-05-20 01:39:02,800 INFO: [GET_PUBLIC_KEY] Public key saved for package.json (status_code: 200)
+2025-05-20 01:39:50,082 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 122562
+2025-05-20 01:39:50,203 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 122562
+2025-05-20 01:39:57,838 INFO: [SESSION] Generated sid: 97153865
+2025-05-20 01:39:57,839 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:40:06,150 INFO: [GET_PUBLIC_KEY] Public key saved for package-lock.json (status_code: 200)
+2025-05-20 01:40:22,335 INFO: [GET_PUBLIC_KEY] Public key saved for main.js (status_code: 200)
+2025-05-20 01:47:00,770 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 851444
+2025-05-20 01:47:01,034 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 851444
+2025-05-20 01:47:21,622 INFO: [SESSION] Generated sid: 82938618
+2025-05-20 01:47:21,623 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:47:27,230 INFO: [GET_PUBLIC_KEY] File README.md already exists (status_code: 400)
+2025-05-20 01:47:34,901 INFO: [GET_PUBLIC_KEY] Public key saved for logger.js (status_code: 200)
+2025-05-20 01:51:10,893 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 401573
+2025-05-20 01:51:10,997 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 401573
+2025-05-20 01:51:20,396 INFO: [SESSION] Generated sid: 68845095
+2025-05-20 01:51:20,398 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:51:25,418 INFO: [GET_PUBLIC_KEY] File preload.js already exists (status_code: 400)
+2025-05-20 01:52:53,365 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 856599
+2025-05-20 01:52:53,651 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 856599
+2025-05-20 01:53:02,149 INFO: [SESSION] Generated sid: 85538186
+2025-05-20 01:53:02,151 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 01:53:11,113 INFO: [GET_PUBLIC_KEY] File logger.js already exists (status_code: 400)
+2025-05-20 01:53:17,629 INFO: [GET_PUBLIC_KEY] Public key saved for file.js (status_code: 200)
