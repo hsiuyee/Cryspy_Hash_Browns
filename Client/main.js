@@ -1,7 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const { handleLogin, handleRegister, handleOTP, handleOTPRegister} = require('./backend/auth.js');
-const { handleUpload } = require('./backend/file.js');
+const { handleUpload, handleListFile, handleDownload} = require('./backend/file.js');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({

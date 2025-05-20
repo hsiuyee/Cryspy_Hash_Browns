@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Crypto Engineering{% endblock %}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Upload</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="#" onclick="goToLogin()">Logout</a></li>
+    </ul>
+  </nav>
+
+  {% block content %}
+  {% endblock %}
+
+  {% block extra_js %}{% endblock %}
+</body>
+</html>

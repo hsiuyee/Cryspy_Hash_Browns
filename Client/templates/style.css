@@ -1,0 +1,54 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 60px; /* prevent content being hidden under fixed nav */
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* For the table style */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    border: 1px solid #aaa;
+    padding: 10px 15px;
+    text-align: left;
+}
+th {
+    background-color: #f0f0f0;
+}
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}

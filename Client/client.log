@@ -662,3 +662,228 @@ CQIDAQAB
 [2025-05-19T17:53:17.631Z] INFO: Successfully encrypt IV
 [2025-05-19T17:53:17.631Z] INFO: http://localhost:4000/upload
 [2025-05-19T17:53:17.635Z] INFO: Successfully upload file: file.js
+[2025-05-20T05:49:15.502Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T05:49:15.503Z] INFO: http://localhost:3000/register
+[2025-05-20T05:50:08.411Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 808700
+[2025-05-20T05:50:08.412Z] INFO: http://localhost:3000/verify_register
+[2025-05-20T05:50:08.420Z] INFO: undefined
+[2025-05-20T05:50:19.352Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T05:50:19.352Z] INFO: http://localhost:3000/login
+[2025-05-20T05:50:33.630Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 775404
+[2025-05-20T05:50:33.630Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T05:50:33.637Z] INFO: login_success / SID=64787290
+[2025-05-20T05:50:39.837Z] INFO: Upload Attempt File: client.log
+[2025-05-20T05:50:39.839Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T05:50:39.991Z] INFO: Successfully ask KMS Public Key
+[2025-05-20T05:50:39.991Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE1Y0RMVEhlNDUvckVHN1lMKzlkSgp3YWJuR241OWd6dWEyczcwMnlMVGdDZWc2SlNpaGZucXg4Uk1yd0IzOFZaN29VYXRIOGp0ZS9aaVB6UmlISGkyCmVCNk5UTnBsNEUwbHN6TmZTSFVqZ29sZE5vcWhLeElsdkpTSloxUkV6UGh0T2dzU2pMM1RPM2pqNndEd3VETzgKd2tuVE5zald4WTkzN0duaFY2WDdDN0l0NDhWaVdHK3piK0FaZnUvS2t4MUVZQjd6RllERDAvbDdkQURjbTNRbgp1KzhuZ1hpTHJoTEVjMEhpQ3NZNFJMNVc4Z2ZCQXlIcjgwVEVYWlBkUlNNQTdZT0dObFpPUXRxNmV4TE5EYk55CjhWVE15MXQySzlGQVZOdk9uTkN3dXR4U0d2M0FYOVErMnNXTjVEWGFJQVI5dWNtcGt0cGRyVUZzSE1MWlo3dUcKMlFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-20T05:50:39.992Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5cDLTHe45/rEG7YL+9dJ
+wabnGn59gzua2s702yLTgCeg6JSihfnqx8RMrwB38VZ7oUatH8jte/ZiPzRiHHi2
+eB6NTNpl4E0lszNfSHUjgoldNoqhKxIlvJSJZ1REzPhtOgsSjL3TO3jj6wDwuDO8
+wknTNsjWxY937GnhV6X7C7It48ViWG+zb+AZfu/Kkx1EYB7zFYDD0/l7dADcm3Qn
+u+8ngXiLrhLEc0HiCsY4RL5W8gfBAyHr80TEXZPdRSMA7YOGNlZOQtq6exLNDbNy
+8VTMy1t2K9FAVNvOnNCwutxSGv3AX9Q+2sWN5DXaIAR9ucmpktpdrUFsHMLZZ7uG
+2QIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-20T05:50:39.992Z] INFO: Successfully encrypt AES key
+[2025-05-20T05:50:39.992Z] INFO: Successfully encrypt IV
+[2025-05-20T05:50:39.992Z] INFO: http://localhost:4000/upload
+[2025-05-20T05:50:39.998Z] INFO: Successfully upload file: client.log
+[2025-05-20T06:02:33.357Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:02:33.359Z] INFO: http://localhost:3000/login
+[2025-05-20T06:02:49.242Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 775404
+[2025-05-20T06:02:49.242Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:02:49.248Z] INFO: otp_failed
+[2025-05-20T06:03:05.205Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 775404
+[2025-05-20T06:03:05.205Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:03:05.210Z] INFO: otp_failed
+[2025-05-20T06:03:22.729Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 385752
+[2025-05-20T06:03:22.729Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:03:22.736Z] INFO: login_success / SID=95974401
+[2025-05-20T06:03:32.070Z] INFO: Upload Attempt File: client.log
+[2025-05-20T06:03:32.072Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:09:56.543Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:09:56.545Z] INFO: http://localhost:3000/login
+[2025-05-20T06:10:07.459Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 449242
+[2025-05-20T06:10:07.460Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:10:07.467Z] INFO: login_success / SID=11987415
+[2025-05-20T06:10:12.820Z] INFO: Upload Attempt File: client.log
+[2025-05-20T06:10:12.822Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:10:57.329Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:10:57.332Z] INFO: http://localhost:3000/login
+[2025-05-20T06:11:14.272Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 803694
+[2025-05-20T06:11:14.272Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:11:14.288Z] INFO: login_success / SID=50070823
+[2025-05-20T06:11:17.906Z] INFO: List File Attempt
+[2025-05-20T06:11:17.909Z] ERROR: Failed to retrieve file list
+[2025-05-20T06:12:40.341Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:12:40.344Z] INFO: http://localhost:3000/login
+[2025-05-20T06:12:49.544Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 300318
+[2025-05-20T06:12:49.544Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:12:49.551Z] INFO: login_success / SID=95331229
+[2025-05-20T06:12:53.308Z] INFO: List File Attempt
+[2025-05-20T06:12:53.311Z] INFO: Successfully retrieved file list
+[2025-05-20T06:13:55.953Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:13:55.955Z] INFO: http://localhost:3000/login
+[2025-05-20T06:14:13.842Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 482770
+[2025-05-20T06:14:13.842Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:14:13.860Z] INFO: login_success / SID=70086689
+[2025-05-20T06:14:18.323Z] INFO: List File Attempt
+[2025-05-20T06:14:18.326Z] INFO: Successfully retrieved file list
+[2025-05-20T06:16:14.959Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:16:14.961Z] INFO: http://localhost:3000/login
+[2025-05-20T06:16:27.043Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 947381
+[2025-05-20T06:16:27.044Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:16:27.066Z] INFO: login_success / SID=21272177
+[2025-05-20T06:16:33.242Z] INFO: Upload Attempt File: file.js
+[2025-05-20T06:16:33.243Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:16:33.632Z] INFO: Successfully ask KMS Public Key
+[2025-05-20T06:16:33.632Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFxRlZBNy9EWG0wNFBONzdtOVM3YwpHY1VXc2RvamM3ZFdyNTh5OTlkSWFsUWUrSENtcFBLUXU5RDlGSDBSbUEwaVNNalZ4QzdIdFo1YnhaRHdSdG5kCk1zUlNFU0xYbVhEUDNUNzBuSkhCM2FBeDFpN3ozZHpMMnE3bThnSjhEbWE3OEJsZ0M2b2wycUM4K05HUWp2VmoKMHlKRFNhcUpRS0I1OFJLOTRYM0ZVQ2prK3kzODV3V2xMSDUzbmhmc3VSZGN1T0xMZC9abzZXSHlvRzNhMjhSagpRQk1acTlRWXlDeUJEZzVYVTVSbTV0UXRJVUtJeEIrQW41QVdGWHpwQWtsOStKakY5NDdjYXJQM0xXb0grT3J5CnpGbmNaTVR0L3N0WldpTFpwT0N0dzcyNzFBTFJXd1o5a1RoalAxVU5WaGxrVEV2QWpJcGIvS2dmRWdETXNETVkKS3dJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-20T06:16:33.632Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqFVA7/DXm04PN77m9S7c
+GcUWsdojc7dWr58y99dIalQe+HCmpPKQu9D9FH0RmA0iSMjVxC7HtZ5bxZDwRtnd
+MsRSESLXmXDP3T70nJHB3aAx1i7z3dzL2q7m8gJ8Dma78BlgC6ol2qC8+NGQjvVj
+0yJDSaqJQKB58RK94X3FUCjk+y385wWlLH53nhfsuRdcuOLLd/Zo6WHyoG3a28Rj
+QBMZq9QYyCyBDg5XU5Rm5tQtIUKIxB+An5AWFXzpAkl9+JjF947carP3LWoH+Ory
+zFncZMTt/stZWiLZpOCtw7271ALRWwZ9kThjP1UNVhlkTEvAjIpb/KgfEgDMsDMY
+KwIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-20T06:16:33.632Z] INFO: Successfully encrypt AES key
+[2025-05-20T06:16:33.633Z] INFO: Successfully encrypt IV
+[2025-05-20T06:16:33.633Z] INFO: http://localhost:4000/upload
+[2025-05-20T06:16:33.636Z] INFO: Successfully upload file: file.js
+[2025-05-20T06:16:34.456Z] INFO: List File Attempt
+[2025-05-20T06:16:34.458Z] INFO: Successfully retrieved file list
+[2025-05-20T06:17:41.707Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:17:41.709Z] INFO: http://localhost:3000/login
+[2025-05-20T06:17:54.491Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 695178
+[2025-05-20T06:17:54.492Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:17:54.499Z] INFO: login_success / SID=12428147
+[2025-05-20T06:17:59.936Z] INFO: Upload Attempt File: main.js
+[2025-05-20T06:17:59.937Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:18:00.127Z] INFO: Successfully ask KMS Public Key
+[2025-05-20T06:18:00.127Z] INFO: KMS Public Key: LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUE3SG40eTlZN3NmM3NtZ3FBSU1PNQozbGpZMU0vd2RxRkV5UlJnV2I5bFZtRWxqTVRUemZYbHFSSVVwL2VCN3BkWEMya08yQURFbVN3SUhRYnByV0laCkRWbnV1aG9qVVNkZWg4RlJraUQ0bXpFTE9DYVN3cGJCY2l1WTlvemRrd1UzSmJacGIrQ2g1WVB4aDZjcUVHb0YKL2w5OEJaOFZ0NmZ1Q2V1UVh3NFFEL1ZTV1lKa25od1Bzc00xZmVjQjFQcmFzc2U1bWM3ck5ydkVlbVZienVEdQpYWlhrOG9PbWZEbmtyR3pHL2REL3l1dndQbVBGbnlEZ2k3VUEyZmF5eEpZZWEveUFieVc2bWtFaVpzVUhINjROCjNhY1NWbGhQSW9BajY3LzBvelo1L1hBRlBuazRpMWl2Y3JlRjRaRjhzQU85SlNVdEQ0d1lOYWNJRGJrdW8yeTIKNXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0t
+[2025-05-20T06:18:00.127Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7Hn4y9Y7sf3smgqAIMO5
+3ljY1M/wdqFEyRRgWb9lVmEljMTTzfXlqRIUp/eB7pdXC2kO2ADEmSwIHQbprWIZ
+DVnuuhojUSdeh8FRkiD4mzELOCaSwpbBciuY9ozdkwU3JbZpb+Ch5YPxh6cqEGoF
+/l98BZ8Vt6fuCeuQXw4QD/VSWYJknhwPssM1fecB1Prasse5mc7rNrvEemVbzuDu
+XZXk8oOmfDnkrGzG/dD/yuvwPmPFnyDgi7UA2fayxJYea/yAbyW6mkEiZsUHH64N
+3acSVlhPIoAj67/0ozZ5/XAFPnk4i1ivcreF4ZF8sAO9JSUtD4wYNacIDbkuo2y2
+5wIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-20T06:18:00.127Z] INFO: Successfully encrypt AES key
+[2025-05-20T06:18:00.128Z] INFO: Successfully encrypt IV
+[2025-05-20T06:18:00.128Z] INFO: http://localhost:4000/upload
+[2025-05-20T06:18:00.131Z] INFO: Successfully upload file: main.js
+[2025-05-20T06:18:00.904Z] INFO: List File Attempt
+[2025-05-20T06:18:00.906Z] INFO: Successfully retrieved file list
+[2025-05-20T06:23:05.055Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:23:05.058Z] INFO: http://localhost:3000/login
+[2025-05-20T06:23:16.862Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 751849
+[2025-05-20T06:23:16.862Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:23:16.880Z] INFO: login_success / SID=42264441
+[2025-05-20T06:23:20.359Z] INFO: List File Attempt
+[2025-05-20T06:23:20.361Z] INFO: Successfully retrieved file list
+[2025-05-20T06:26:53.224Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:26:53.227Z] INFO: http://localhost:3000/login
+[2025-05-20T06:27:03.871Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 751849
+[2025-05-20T06:27:03.871Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:27:03.877Z] INFO: otp_failed
+[2025-05-20T06:27:15.829Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 494504
+[2025-05-20T06:27:15.829Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:27:15.836Z] INFO: login_success / SID=41599985
+[2025-05-20T06:27:22.169Z] INFO: Upload Attempt File: file.js
+[2025-05-20T06:27:22.170Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:27:22.887Z] INFO: List File Attempt
+[2025-05-20T06:27:22.889Z] INFO: Successfully retrieved file list
+[2025-05-20T06:44:48.164Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: tet
+[2025-05-20T06:44:48.167Z] INFO: http://localhost:3000/login
+[2025-05-20T06:45:24.265Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: test
+[2025-05-20T06:45:24.266Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:45:24.270Z] INFO: otp_failed
+[2025-05-20T06:45:26.234Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: test
+[2025-05-20T06:45:26.234Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:45:26.239Z] INFO: otp_failed
+[2025-05-20T06:45:40.790Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:45:40.792Z] INFO: http://localhost:3000/login
+[2025-05-20T06:45:49.185Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 244394
+[2025-05-20T06:45:49.186Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:45:49.193Z] INFO: login_success / SID=10382713
+[2025-05-20T06:45:53.347Z] INFO: List File Attempt
+[2025-05-20T06:45:53.351Z] INFO: Successfully retrieved file list
+[2025-05-20T06:47:19.674Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:47:19.676Z] INFO: http://localhost:3000/login
+[2025-05-20T06:47:33.263Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 857710
+[2025-05-20T06:47:33.263Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:47:33.271Z] INFO: login_success / SID=61061615
+[2025-05-20T06:47:36.734Z] INFO: List File Attempt
+[2025-05-20T06:47:36.737Z] INFO: Successfully retrieved file list
+[2025-05-20T06:47:37.509Z] INFO: Download Attempt File: client.log / SID: 61061615
+[2025-05-20T06:47:37.512Z] ERROR: Failed to download file
+[2025-05-20T06:49:05.395Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:49:05.397Z] INFO: http://localhost:3000/login
+[2025-05-20T06:49:18.268Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 475510
+[2025-05-20T06:49:18.269Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:49:18.274Z] INFO: otp_failed
+[2025-05-20T06:49:24.886Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 475501
+[2025-05-20T06:49:24.886Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:49:24.893Z] INFO: login_success / SID=62108063
+[2025-05-20T06:49:27.866Z] INFO: List File Attempt
+[2025-05-20T06:49:27.868Z] INFO: Successfully retrieved file list
+[2025-05-20T06:49:29.191Z] INFO: Download Attempt File: client.log / SID: 62108063
+[2025-05-20T06:49:29.196Z] ERROR: Failed to download file
+[2025-05-20T06:51:18.709Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:51:18.712Z] INFO: http://localhost:3000/login
+[2025-05-20T06:51:29.930Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 131549
+[2025-05-20T06:51:29.930Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:51:29.938Z] INFO: login_success / SID=68350752
+[2025-05-20T06:51:33.431Z] INFO: List File Attempt
+[2025-05-20T06:51:33.433Z] INFO: Successfully retrieved file list
+[2025-05-20T06:51:34.005Z] INFO: Download Attempt File: client.log / SID: 68350752
+[2025-05-20T06:51:34.014Z] INFO: Successfully download file from data server
+[2025-05-20T06:51:34.019Z] INFO: Successfully ask KMS Private Key
+[2025-05-20T06:51:34.023Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-20T06:51:34.024Z] ERROR: Failed to download file
+[2025-05-20T06:54:19.823Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:54:19.826Z] INFO: http://localhost:3000/login
+[2025-05-20T06:54:32.603Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 904735
+[2025-05-20T06:54:32.603Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:54:32.611Z] INFO: login_success / SID=28074718
+[2025-05-20T06:54:35.888Z] INFO: List File Attempt
+[2025-05-20T06:54:35.891Z] INFO: Successfully retrieved file list
+[2025-05-20T06:54:36.546Z] INFO: Download Attempt File: client.log / SID: 28074718
+[2025-05-20T06:54:36.555Z] INFO: Successfully download file from data server
+[2025-05-20T06:54:36.560Z] INFO: Successfully ask KMS Private Key
+[2025-05-20T06:54:36.565Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-20T06:54:36.566Z] ERROR: Failed to download file
+[2025-05-20T06:55:43.397Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T06:55:43.400Z] INFO: http://localhost:3000/login
+[2025-05-20T06:56:00.406Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 260909
+[2025-05-20T06:56:00.406Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T06:56:00.413Z] INFO: login_success / SID=82337809
+[2025-05-20T06:56:05.094Z] INFO: List File Attempt
+[2025-05-20T06:56:05.096Z] INFO: Successfully retrieved file list
+[2025-05-20T06:56:06.589Z] INFO: Download Attempt File: file.js / SID: 82337809
+[2025-05-20T06:56:06.595Z] INFO: Successfully download file from data server
+[2025-05-20T06:56:06.600Z] INFO: Successfully ask KMS Private Key
+[2025-05-20T06:56:06.605Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-20T06:56:06.605Z] INFO: Successfully save file to /home/muting/file.js
+[2025-05-20T06:57:07.651Z] INFO: Upload Attempt File: README.md
+[2025-05-20T06:57:07.652Z] INFO: http://localhost:3000/get_public_key
+[2025-05-20T06:57:07.836Z] INFO: Successfully ask KMS Public Key
+[2025-05-20T06:57:07.836Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsjRNSSxPvIPOx5HcQswx
+T1l0CiPrPuNKEsDp0PCoYxn52f1bGdzpKLcqLq7PGfJj+VW9P9Thq/tUbKg/8bwb
+ujwR1zdoLEVjR6jn6oTJxtaFfKnYY1WriZdeWFjVwxnShBQb3S8CB2usS3NgJPZM
+xppdLGQ7bIKXvBArb0munqlDzTKSgQspraPH5FkWxQblkcnM8zSHzvX4GcQi1uu4
+OUpvsaJfOA+zjzvqxAQYWuRnGvAegNKv4ViXgq1SV39MJbFvBVjIQR7iMDWDSe4U
+cEcmeX2I7OzrfA1278Zcoiip+ZeizTUwOnZvcG8xiwUe2Ly6tQ8rwpKFZ2hxX09s
+fQIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-20T06:57:07.836Z] INFO: Successfully encrypt AES key
+[2025-05-20T06:57:07.836Z] INFO: Successfully encrypt IV
+[2025-05-20T06:57:07.836Z] INFO: http://localhost:4000/upload
+[2025-05-20T06:57:07.838Z] INFO: Successfully upload file: README.md
+[2025-05-20T06:57:08.789Z] INFO: List File Attempt
+[2025-05-20T06:57:08.791Z] INFO: Successfully retrieved file list

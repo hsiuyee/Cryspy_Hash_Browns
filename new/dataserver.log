@@ -19,3 +19,6 @@
 2025-05-20 01:39:02,804 INFO: [UPLOAD] Stored file 'package.json' in Redis with IV
 2025-05-20 01:47:34,905 INFO: [UPLOAD] Stored file 'logger.js' in Redis with IV
 2025-05-20 01:53:17,633 INFO: [UPLOAD] Stored file 'file.js' in Redis with IV
+2025-05-20 02:03:16,119 INFO: [LIST_FILES] Returning 6 files
+2025-05-20 13:45:22,118 INFO: Flushing Redis database for a clean start...
+2025-05-20 13:45:22,120 INFO: Starting Data Server with FastAPI on port 4000

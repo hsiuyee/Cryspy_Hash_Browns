@@ -139,3 +139,6 @@
 2025-05-20 01:53:02,151 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
 2025-05-20 01:53:11,113 INFO: [GET_PUBLIC_KEY] File logger.js already exists (status_code: 400)
 2025-05-20 01:53:17,629 INFO: [GET_PUBLIC_KEY] Public key saved for file.js (status_code: 200)
+2025-05-20 13:43:41,363 INFO: Flushing Redis database for a clean start...
+2025-05-20 13:45:16,062 INFO: Flushing Redis database for a clean start...
+2025-05-20 13:45:16,064 INFO: Starting KMS Server with FastAPI on port 3000
