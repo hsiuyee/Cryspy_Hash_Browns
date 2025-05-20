@@ -22,3 +22,23 @@
 2025-05-20 02:03:16,119 INFO: [LIST_FILES] Returning 6 files
 2025-05-20 13:45:22,118 INFO: Flushing Redis database for a clean start...
 2025-05-20 13:45:22,120 INFO: Starting Data Server with FastAPI on port 4000
+2025-05-20 13:50:39,995 INFO: [UPLOAD] Stored file 'client.log' in Redis with IV
+2025-05-20 14:12:53,310 INFO: [LIST_FILES] Returning 1 files
+2025-05-20 14:14:18,325 INFO: [LIST_FILES] Returning 1 files
+2025-05-20 14:16:33,634 INFO: [UPLOAD] Stored file 'file.js' in Redis with IV
+2025-05-20 14:16:34,457 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 14:18:00,129 INFO: [UPLOAD] Stored file 'main.js' in Redis with IV
+2025-05-20 14:18:00,905 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:23:20,361 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:27:22,888 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:45:53,349 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:47:36,736 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:49:27,868 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:51:33,432 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:51:34,009 INFO: [DOWNLOAD] Retrieved file 'client.log' from Redis
+2025-05-20 14:54:35,890 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:54:36,550 INFO: [DOWNLOAD] Retrieved file 'client.log' from Redis
+2025-05-20 14:56:05,095 INFO: [LIST_FILES] Returning 3 files
+2025-05-20 14:56:06,592 INFO: [DOWNLOAD] Retrieved file 'file.js' from Redis
+2025-05-20 14:57:07,837 INFO: [UPLOAD] Stored file 'README.md' in Redis with IV
+2025-05-20 14:57:08,790 INFO: [LIST_FILES] Returning 4 files

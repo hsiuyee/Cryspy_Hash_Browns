@@ -142,3 +142,87 @@
 2025-05-20 13:43:41,363 INFO: Flushing Redis database for a clean start...
 2025-05-20 13:45:16,062 INFO: Flushing Redis database for a clean start...
 2025-05-20 13:45:16,064 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-20 13:49:16,450 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 808700
+2025-05-20 13:49:16,588 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 808700
+2025-05-20 13:50:08,418 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-20 13:50:19,505 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 775404
+2025-05-20 13:50:19,618 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 775404
+2025-05-20 13:50:33,633 INFO: [SESSION] Generated sid: 64787290
+2025-05-20 13:50:33,635 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 13:50:39,990 INFO: [GET_PUBLIC_KEY] Public key saved for client.log (status_code: 200)
+2025-05-20 14:02:33,610 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 385752
+2025-05-20 14:02:33,723 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 385752
+2025-05-20 14:02:49,246 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:03:05,208 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:03:22,732 INFO: [SESSION] Generated sid: 95974401
+2025-05-20 14:03:22,734 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:03:32,085 INFO: [GET_PUBLIC_KEY] File client.log already exists (status_code: 400)
+2025-05-20 14:09:56,769 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 449242
+2025-05-20 14:09:56,882 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 449242
+2025-05-20 14:10:07,463 INFO: [SESSION] Generated sid: 11987415
+2025-05-20 14:10:07,465 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:10:12,835 INFO: [GET_PUBLIC_KEY] File client.log already exists (status_code: 400)
+2025-05-20 14:10:57,567 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 803694
+2025-05-20 14:10:58,639 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 803694
+2025-05-20 14:11:14,286 INFO: [SESSION] Generated sid: 50070823
+2025-05-20 14:11:14,287 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:12:40,617 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 300318
+2025-05-20 14:12:40,737 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 300318
+2025-05-20 14:12:49,548 INFO: [SESSION] Generated sid: 95331229
+2025-05-20 14:12:49,549 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:13:56,188 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 482770
+2025-05-20 14:13:56,310 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 482770
+2025-05-20 14:14:13,856 INFO: [SESSION] Generated sid: 70086689
+2025-05-20 14:14:13,858 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:16:15,165 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 947381
+2025-05-20 14:16:15,274 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 947381
+2025-05-20 14:16:27,063 INFO: [SESSION] Generated sid: 21272177
+2025-05-20 14:16:27,064 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:16:33,630 INFO: [GET_PUBLIC_KEY] Public key saved for file.js (status_code: 200)
+2025-05-20 14:17:41,898 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 695178
+2025-05-20 14:17:42,013 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 695178
+2025-05-20 14:17:54,495 INFO: [SESSION] Generated sid: 12428147
+2025-05-20 14:17:54,497 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:18:00,125 INFO: [GET_PUBLIC_KEY] Public key saved for main.js (status_code: 200)
+2025-05-20 14:23:05,288 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 751849
+2025-05-20 14:23:05,545 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 751849
+2025-05-20 14:23:16,877 INFO: [SESSION] Generated sid: 42264441
+2025-05-20 14:23:16,878 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:26:53,432 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 494504
+2025-05-20 14:26:53,554 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 494504
+2025-05-20 14:27:03,875 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:27:15,832 INFO: [SESSION] Generated sid: 41599985
+2025-05-20 14:27:15,834 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:27:22,187 INFO: [GET_PUBLIC_KEY] File file.js already exists (status_code: 400)
+2025-05-20 14:44:48,381 INFO: [LOGIN] Login failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:45:24,269 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:45:26,237 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:45:40,982 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 244394
+2025-05-20 14:45:41,092 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 244394
+2025-05-20 14:45:49,189 INFO: [SESSION] Generated sid: 10382713
+2025-05-20 14:45:49,191 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:47:19,907 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 857710
+2025-05-20 14:47:20,171 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 857710
+2025-05-20 14:47:33,267 INFO: [SESSION] Generated sid: 61061615
+2025-05-20 14:47:33,268 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:49:05,699 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 475501
+2025-05-20 14:49:05,815 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 475501
+2025-05-20 14:49:18,272 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 14:49:24,890 INFO: [SESSION] Generated sid: 62108063
+2025-05-20 14:49:24,891 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:51:18,940 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 131549
+2025-05-20 14:51:19,204 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 131549
+2025-05-20 14:51:29,934 INFO: [SESSION] Generated sid: 68350752
+2025-05-20 14:51:29,936 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:51:34,017 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
+2025-05-20 14:54:20,039 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 904735
+2025-05-20 14:54:20,152 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 904735
+2025-05-20 14:54:32,607 INFO: [SESSION] Generated sid: 28074718
+2025-05-20 14:54:32,609 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:54:36,558 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
+2025-05-20 14:55:43,606 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 260909
+2025-05-20 14:55:43,715 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 260909
+2025-05-20 14:56:00,410 INFO: [SESSION] Generated sid: 82337809
+2025-05-20 14:56:00,411 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 14:56:06,598 INFO: [GET_PRIVATE_KEY] Private key retrieved for file.js (status_code: 200)
+2025-05-20 14:57:07,834 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)

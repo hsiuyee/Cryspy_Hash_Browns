@@ -2,6 +2,7 @@ const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const { handleLogin, handleRegister, handleOTP, handleOTPRegister} = require('./backend/auth.js');
 const { handleUpload, handleListFile, handleDownload} = require('./backend/file.js');
+const { handleGrantAccess } = require('./backend/grant.js');
 
 function createWindow() {
   const mainWindow = new BrowserWindow({
@@ -37,3 +38,7 @@ ipcMain.handle('otp_register', handleOTPRegister);
 ipcMain.handle('upload', handleUpload);
 ipcMain.handle('list_file', handleListFile);
 ipcMain.handle('download', handleDownload);
+
+// Grant Access
+
+ipcMain.handle('grant_access', handleGrantAccess);

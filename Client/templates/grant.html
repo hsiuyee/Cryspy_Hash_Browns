@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grant Access</title>
+    <link rel="stylesheet" href="style.css">
+
+    <nav>
+        <ul>
+        <li><a href="index.html">Upload</a></li>
+        <li><a href="download.html">FlieList</a></li>
+        <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="grantFileName"></h1> 
+
+    <form id="grantForm">
+        <input type="email" id="email" name="email" required />
+        <button type="submit">Grant Access</button>
+    </form>
+    <p id="grantMsg"></p>
+    <script>
+        // Handle form submission
+        document.getElementById('grantForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const fileName = sessionStorage.getItem('file');
+            const sid = sessionStorage.getItem('sid');
+            
+            const result = await window.electronAPI.grant_access(fileName, email, sid);
+
+            if (result.success){    
+                document.getElementById('grantMsg').innerText = "Access granted successfully!";
+            } else {
+                document.getElementById('grantMsg').innerText = result.error || "Failed to grant access.";
+            }
+        });
+    </script>
+</html>

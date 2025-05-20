@@ -887,3 +887,68 @@ fQIDAQAB
 [2025-05-20T06:57:07.838Z] INFO: Successfully upload file: README.md
 [2025-05-20T06:57:08.789Z] INFO: List File Attempt
 [2025-05-20T06:57:08.791Z] INFO: Successfully retrieved file list
+[2025-05-20T07:34:12.471Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T07:34:12.473Z] INFO: http://localhost:3000/login
+[2025-05-20T07:34:22.740Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 777028
+[2025-05-20T07:34:22.741Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:34:22.747Z] INFO: login_success / SID=36240156
+[2025-05-20T07:34:26.174Z] INFO: List File Attempt
+[2025-05-20T07:34:26.177Z] INFO: Successfully retrieved file list
+[2025-05-20T07:36:15.007Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T07:36:15.009Z] INFO: http://localhost:3000/login
+[2025-05-20T07:36:43.646Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 555599
+[2025-05-20T07:36:43.646Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:36:43.653Z] INFO: login_success / SID=67427117
+[2025-05-20T07:36:47.602Z] INFO: List File Attempt
+[2025-05-20T07:36:47.604Z] INFO: Successfully retrieved file list
+[2025-05-20T07:45:48.162Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T07:45:48.164Z] INFO: http://localhost:3000/login
+[2025-05-20T07:46:03.909Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 316479
+[2025-05-20T07:46:03.910Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:46:03.917Z] INFO: login_success / SID=21052733
+[2025-05-20T07:46:07.173Z] INFO: List File Attempt
+[2025-05-20T07:46:07.176Z] INFO: Successfully retrieved file list
+[2025-05-20T07:46:13.593Z] INFO: Grant Access Attempt File: README.md Email: mutinglee.cs11@nycu.edu.tw
+[2025-05-20T07:46:13.594Z] INFO: http://localhost:3000/grant_access
+[2025-05-20T07:46:13.599Z] INFO: Successfully grant access
+[2025-05-20T07:46:29.577Z] INFO: Register Attempt Username: mutinglee.cs11@nycu.edu.tw Password: test
+[2025-05-20T07:46:29.578Z] INFO: http://localhost:3000/register
+[2025-05-20T07:46:41.368Z] INFO: OTP Register Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 477702
+[2025-05-20T07:46:41.368Z] INFO: http://localhost:3000/verify_register
+[2025-05-20T07:46:41.374Z] INFO: undefined
+[2025-05-20T07:46:51.686Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: test
+[2025-05-20T07:46:51.686Z] INFO: http://localhost:3000/login
+[2025-05-20T07:47:00.794Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 456508
+[2025-05-20T07:47:00.794Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:47:00.801Z] INFO: login_success / SID=30975604
+[2025-05-20T07:47:03.997Z] INFO: List File Attempt
+[2025-05-20T07:47:04.000Z] INFO: Successfully retrieved file list
+[2025-05-20T07:47:12.671Z] INFO: Grant Access Attempt File: README.md Email: a0979608003@gmail.com
+[2025-05-20T07:47:12.671Z] INFO: http://localhost:3000/grant_access
+[2025-05-20T07:47:12.676Z] ERROR: Failed to grant access
+[2025-05-20T07:50:07.860Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-20T07:50:07.862Z] INFO: http://localhost:3000/login
+[2025-05-20T07:50:19.882Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 523838
+[2025-05-20T07:50:19.883Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:50:19.888Z] INFO: otp_failed
+[2025-05-20T07:50:22.924Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 523828
+[2025-05-20T07:50:22.925Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:50:22.930Z] INFO: login_success / SID=21025805
+[2025-05-20T07:50:26.124Z] INFO: List File Attempt
+[2025-05-20T07:50:26.128Z] INFO: Successfully retrieved file list
+[2025-05-20T07:50:32.200Z] INFO: Grant Access Attempt File: README.md Email: mutinglee.cs11@nycu.edu.tw
+[2025-05-20T07:50:32.200Z] INFO: http://localhost:3000/grant_access
+[2025-05-20T07:50:32.205Z] INFO: Successfully grant access
+[2025-05-20T07:50:34.716Z] INFO: List File Attempt
+[2025-05-20T07:50:34.719Z] INFO: Successfully retrieved file list
+[2025-05-20T07:50:43.800Z] INFO: Grant Access Attempt File: client.log Email: mutinglee.cs11@nycu.edu.tw
+[2025-05-20T07:50:43.800Z] INFO: http://localhost:3000/grant_access
+[2025-05-20T07:50:43.805Z] INFO: Successfully grant access
+[2025-05-20T07:50:53.329Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: test
+[2025-05-20T07:50:53.330Z] INFO: http://localhost:3000/login
+[2025-05-20T07:51:30.084Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 456508
+[2025-05-20T07:51:30.084Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:51:30.089Z] INFO: otp_failed
+[2025-05-20T07:51:33.195Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 456508
+[2025-05-20T07:51:33.195Z] INFO: http://localhost:3000/verify_login
+[2025-05-20T07:51:33.199Z] INFO: otp_failed

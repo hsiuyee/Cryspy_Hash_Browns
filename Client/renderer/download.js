@@ -19,12 +19,25 @@ async function fetchFileList() {
                 const btn = document.createElement("button");
                 btn.textContent = "Download";
                 const sid = sessionStorage.getItem('sid'); // TODO: Modify ? 
-               btn.onclick = () => {
+                btn.onclick = () => {
                 window.electronAPI.download(file, sid);
                 };
 
                 btnTd.appendChild(btn);
                 tr.appendChild(btnTd);
+
+                // Grant Access button column
+                const grantTd = document.createElement("td");
+                const grantBtn = document.createElement("button");
+                grantBtn.textContent = "Grant Access";
+                grantBtn.onclick = async () => {
+                    // jump to grant.html 
+                    sessionStorage.setItem('file', file);
+                    window.location.href = "grant.html";
+                };
+
+                grantTd.appendChild(grantBtn);
+                tr.appendChild(grantTd);
 
                 tbody.appendChild(tr);
             });

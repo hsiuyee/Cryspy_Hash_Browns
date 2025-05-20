@@ -8,4 +8,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   upload: (fileName, fileType, fileBuffer, sid) => ipcRenderer.invoke('upload', { fileName, fileType, fileBuffer, sid }),
   list_file: () => ipcRenderer.invoke('list_file'),
   download: (fileName, sid) => ipcRenderer.invoke('download', { fileName, sid }),
+  grant_access: (fileName, email, sid) => ipcRenderer.invoke('grant_access', { fileName, email, sid }),
 });
