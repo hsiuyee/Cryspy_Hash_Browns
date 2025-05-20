@@ -18,9 +18,15 @@ async function fetchFileList() {
                 const btnTd = document.createElement("td");
                 const btn = document.createElement("button");
                 btn.textContent = "Download";
-                const sid = sessionStorage.getItem('sid'); // TODO: Modify ? 
-                btn.onclick = () => {
-                window.electronAPI.download(file, sid);
+                const sid = sessionStorage.getItem('sid');
+
+                btn.onclick = async () => {
+                    const savePath = await window.electronAPI.chooseDownloadPath(file);
+                    if (!savePath) {
+                        alert("User cancelled.");
+                        return;
+                    }
+                    window.electronAPI.download(file, sid, savePath);
                 };
 
                 btnTd.appendChild(btn);

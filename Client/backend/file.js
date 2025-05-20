@@ -127,7 +127,7 @@ async function handleListFile(event) {
 
 }
 
-async function handleDownload(event, {fileName, sid}) {
+async function handleDownload(event, {fileName, sid, savePath}) {
     logger.info(`Download Attempt File: ${fileName} / SID: ${sid}`);
 
     try {
@@ -187,12 +187,9 @@ async function handleDownload(event, {fileName, sid}) {
         // Part 4: Save decrypted data to file
        
         // TODO: Modify the file path to save the file in a specific directory
-        // const downloadsDir = path.join(os.homedir(), 'Downloads'); 
-        // const filePath = path.join(downloadsDir, fileName); 
 
-        const filePath = path.join(os.homedir(), fileName);
-        fs.writeFileSync(filePath, decryptedData);
-        logger.info(`Successfully save file to ${filePath}`);
+        fs.writeFileSync(savePath, decryptedData);
+        logger.info(`Successfully save file to ${savePath}`);
         
 
     } catch (error) {
@@ -207,6 +204,4 @@ async function handleDownload(event, {fileName, sid}) {
     }
 }
 
-
-
-module.exports = { handleUpload, handleListFile, handleDownload};
+module.exports = { handleUpload, handleListFile, handleDownload };

@@ -21,15 +21,20 @@ async function handleLogin(event, { email, password }) {
          headers: {'Content-Type': 'application/json'}
       });
 
-      if (response.status==200){
+      if (response.data.code==200){
         return {
           success: true, 
           email: email,
           apiBaseUrl: apiBaseUrl
         }
+      }else{
+        return{
+          success: false, 
+          error: response.data.message 
+        }
       }
     } catch (err) {
-      return { success: false, error: err.response?.data?.status || err.message };
+      return { success: false, error: err.response?.data?.message || err.message };
     }
   } catch (err) {
     return { success: false, error: err.message };
@@ -50,15 +55,20 @@ async function handleRegister(event, { email, password }) {
          headers: {'Content-Type': 'application/json'}
       });
 
-      if (response.status==200){
+      if (response.data.code==200){
         return {
           success: true, 
           email: email,
           apiBaseUrl: apiBaseUrl
         }
+      }else{
+        return{
+          success: false, 
+          error: response.data.message 
+        }
       }
     } catch (err) {
-      return { success: false, error: response.data.status };
+      return { success: false, error: response?.data?.message || err.message };
     }
   } catch (err) {
     return { success: false, error: err.message };
@@ -93,7 +103,6 @@ async function handleOTPRegister(event, { email, otp }) {
     headers: {'Content-Type': 'application/json'}
   });
   if (response.data.code==200){
-    logger.info(`${response.data.status}`);
     return {
       success: true, 
       sid: response.data.sid

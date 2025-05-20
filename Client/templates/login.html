@@ -32,6 +32,7 @@
           sessionStorage.setItem('email', result.email);
           sessionStorage.setItem('apiBaseUrl', result.apiBaseUrl);
           msg.innerHTML = "OTP sent! Redirecting to OTP page...";
+          msg.style.color = "green";
           setTimeout(() => {
             window.location.href = "otp.html";
           }, 2000);

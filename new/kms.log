@@ -226,3 +226,44 @@
 2025-05-20 14:56:00,411 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
 2025-05-20 14:56:06,598 INFO: [GET_PRIVATE_KEY] Private key retrieved for file.js (status_code: 200)
 2025-05-20 14:57:07,834 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-20 15:34:12,683 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 777028
+2025-05-20 15:34:12,814 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 777028
+2025-05-20 15:34:22,744 INFO: [SESSION] Generated sid: 36240156
+2025-05-20 15:34:22,745 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 15:36:15,205 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 555599
+2025-05-20 15:36:17,775 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 555599
+2025-05-20 15:36:43,650 INFO: [SESSION] Generated sid: 67427117
+2025-05-20 15:36:43,651 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 15:45:48,425 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 316479
+2025-05-20 15:45:48,533 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 316479
+2025-05-20 15:46:03,914 INFO: [SESSION] Generated sid: 21052733
+2025-05-20 15:46:03,915 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 15:46:13,597 INFO: [GRANT_ACCESS] mutinglee.cs11@nycu.edu.tw granted on README.md (status_code: 200)
+2025-05-20 15:46:29,725 INFO: [EMAIL] Sending verification OTP to mutinglee.cs11@nycu.edu.tw: 477702
+2025-05-20 15:46:29,842 INFO: [REGISTER] OTP sent to mutinglee.cs11@nycu.edu.tw: 477702
+2025-05-20 15:46:41,371 INFO: [REGISTER] User mutinglee.cs11@nycu.edu.tw verified (status_code: 200)
+2025-05-20 15:46:51,841 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 456508
+2025-05-20 15:46:52,102 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 456508
+2025-05-20 15:47:00,797 INFO: [SESSION] Generated sid: 30975604
+2025-05-20 15:47:00,799 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-20 15:47:12,674 INFO: [GRANT_ACCESS] Permission denied for mutinglee.cs11@nycu.edu.tw on README.md (status_code: 400)
+2025-05-20 15:50:08,064 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 523828
+2025-05-20 15:50:08,315 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 523828
+2025-05-20 15:50:19,886 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 15:50:22,927 INFO: [SESSION] Generated sid: 21025805
+2025-05-20 15:50:22,929 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 15:50:32,203 INFO: [GRANT_ACCESS] mutinglee.cs11@nycu.edu.tw granted on README.md (status_code: 200)
+2025-05-20 15:50:43,803 INFO: [GRANT_ACCESS] mutinglee.cs11@nycu.edu.tw granted on client.log (status_code: 200)
+2025-05-20 15:50:53,477 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 818415
+2025-05-20 15:50:53,591 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 818415
+2025-05-20 15:51:30,087 INFO: [LOGIN] OTP failed for mutinglee.cs11@nycu.edu.tw (status_code: 401)
+2025-05-20 15:51:33,197 INFO: [LOGIN] OTP failed for mutinglee.cs11@nycu.edu.tw (status_code: 401)
+2025-05-20 15:51:52,530 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 426473
+2025-05-20 15:51:52,646 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 426473
+2025-05-20 15:52:03,068 INFO: [SESSION] Generated sid: 58031200
+2025-05-20 15:52:03,069 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-20 15:52:07,289 INFO: [GET_PRIVATE_KEY] Private key retrieved for README.md (status_code: 200)
+2025-05-20 15:52:08,219 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on file.js (status_code: 400)
+2025-05-20 15:52:37,190 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
+2025-05-20 16:58:08,497 INFO: Flushing Redis database for a clean start...
+2025-05-20 16:58:08,498 INFO: Starting KMS Server with FastAPI on port 3000

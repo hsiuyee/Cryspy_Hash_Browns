@@ -12,9 +12,16 @@
     <input type="text" id="otp" name="otp" maxlength="6" required/>
     <button type="submit">Verify OTP</button>
   </form>
+
+  
+  <button id="topRightBtn" style="position: absolute; top: 16px; right: 16px;">Back to Login</button>
   <p id="otpMsg"></p>
 
   <script >
+    document.getElementById('topRightBtn').onclick = function() {
+      window.location.href = "login.html";
+    };
+
     const apiBaseUrl = sessionStorage.getItem('apiBaseUrl');
     const email = sessionStorage.getItem('email');
 
@@ -32,6 +39,7 @@
             if (result.success) {
                 sessionStorage.setItem('sid', result.sid);
                 msg.innerHTML = "OTP verified! Login...";
+                msg.style.color = "green";
                 setTimeout(() => {
                     window.location.href = "index.html";
                 }, 2000);
