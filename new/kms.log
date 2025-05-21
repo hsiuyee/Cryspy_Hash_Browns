@@ -320,3 +320,6 @@
 2025-05-20 17:30:41,440 INFO: [GET_PRIVATE_KEY] Private key retrieved for preload.js (status_code: 200)
 2025-05-21 21:48:22,817 INFO: Flushing Redis database for a clean start...
 2025-05-21 21:48:22,819 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-21 21:50:48,268 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 632212
+2025-05-21 21:50:48,403 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 632212
+2025-05-21 21:51:00,439 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)

@@ -1113,3 +1113,230 @@ BQIDAQAB
 [2025-05-20T09:30:41.441Z] INFO: Successfully ask KMS Private Key
 [2025-05-20T09:30:41.442Z] INFO: Successfully decrypt data with AES key and IV
 [2025-05-20T09:30:41.444Z] INFO: Successfully save file to /mnt/c/Users/tine0/Desktop/preload.js
+[2025-05-21T13:50:47.915Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T13:50:47.917Z] INFO: http://localhost:3000/register
+[2025-05-21T13:51:00.434Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 632212
+[2025-05-21T13:51:00.434Z] INFO: http://localhost:3000/verify_register
+[2025-05-21T14:09:11.702Z] INFO: Register Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T14:09:11.704Z] INFO: http://localhost:3000/register
+[2025-05-21T14:09:54.778Z] INFO: OTP Register Attempt Username: a0979608003@gmail.com OTP: 544264
+[2025-05-21T14:09:54.778Z] INFO: http://localhost:3000/verify_register
+[2025-05-21T14:10:04.372Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T14:10:04.373Z] INFO: http://localhost:3000/login
+[2025-05-21T14:10:14.828Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 164520
+[2025-05-21T14:10:14.828Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:10:14.835Z] INFO: login_success / SID=46302437
+[2025-05-21T14:10:21.115Z] INFO: Upload Attempt File: package-lock.json
+[2025-05-21T14:10:21.117Z] INFO: http://localhost:3000/get_public_key
+[2025-05-21T14:10:21.607Z] INFO: Successfully ask KMS Public Key
+[2025-05-21T14:10:21.607Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Sfhj8wmvIAG9CVhBXrK
+3OUdtQyrrxxyCxkjZDqAX9f8Q/vcGKkpTVzh4mRX+e9z8N3K9RDFn+9idKLGa8Rw
+xaoIpViyVyYFAq8q6xUTOX8hLh0JzxwzKmCV95VUixRORqnoKHuvR6MfV8VR8lwj
+9N7SCwSwlcVCpLrxL4tXBDVWFPrqEdZNm/TgbZ3WGW47Mzw3DL2Hd9WCZzEwF2jI
+G9XFRKthXuolI0rZtJByLF3loFHxNY22aoOMUVu05zmGD/mM28m8MtxREh/nLCtx
+XZe+7e0caLPQmti1rMkT5nwNS3tF8X/J7HksM9u7u/B1Nn/jrQN0pWHJvKyPAh3J
+qwIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-21T14:10:21.607Z] INFO: Successfully encrypt AES key
+[2025-05-21T14:10:21.607Z] INFO: Successfully encrypt IV
+[2025-05-21T14:10:21.608Z] INFO: http://localhost:4000/upload
+[2025-05-21T14:10:21.614Z] INFO: Successfully upload file: package-lock.json
+[2025-05-21T14:10:25.300Z] INFO: Upload Attempt File: main.js
+[2025-05-21T14:10:25.301Z] INFO: http://localhost:3000/get_public_key
+[2025-05-21T14:10:25.547Z] INFO: Successfully ask KMS Public Key
+[2025-05-21T14:10:25.547Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2pAFDXQLhMOgPwjUwPFl
+LljdXl7GOBXeDUZ4ffxYnCiJ/5xj8JqG7g9+XDwbnLH77OhWxonoqvuIzXUM9AvI
+CVG2WhY34nRT6Hif488W0P6ip9oQ7+UqjP6O1W5R8hEImvKOpz9inMe4djsRg5gs
+P9SmnGuKpinUybqfWx7ebo0xLe3hrmSTje622kSdqTemt7dPHek9F8neVDwhvVVw
+TWsEuGomBHiVj6oyX3LFpt5RzSyDHauUVUaPK3z8ZyvUdqhCETHhx992mwOTpY3F
+/JcHrtwN0clB4EfyLwnLYn5IWv9+YeudZqlcyN5dCRHwEi96A/wed+qqpcoDCSVX
+9wIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-21T14:10:25.547Z] INFO: Successfully encrypt AES key
+[2025-05-21T14:10:25.547Z] INFO: Successfully encrypt IV
+[2025-05-21T14:10:25.547Z] INFO: http://localhost:4000/upload
+[2025-05-21T14:10:25.549Z] INFO: Successfully upload file: main.js
+[2025-05-21T14:10:41.585Z] INFO: Upload Attempt File: 桌布.avif
+[2025-05-21T14:10:41.586Z] INFO: http://localhost:3000/get_public_key
+[2025-05-21T14:10:41.744Z] INFO: Successfully ask KMS Public Key
+[2025-05-21T14:10:41.744Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvPuyQ1RE4HN2prxWd6fJ
+YRLR9LJund0uyDvkb99PEFDAfVyAFHoZD675fZe6rmcx89GyLfOb+rRBWPGjD+0E
+B1YVUdul7crc9mEsGiZvVgRGPgr/stxHubDtyOYbUjvK8+cJvi2J9uIoTzfHpEfR
+7t7jvBzYY2PTKVyElfImkP+eYpL7oohxu7sqAjYzs18/wQExrWcX8005VB/SppBE
+jdm3I+xp9iGj41JkREQxi/Z7AsqWyp0PcE7s8FO01p4hNfUMt2lcATmCXD1fVsBs
+wpHvGNJK2nZVYycEETWezrRFixCxOoToKy0c0qTXBndwKqzZhbuMgVz3dzAsT5a8
+vwIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-21T14:10:41.744Z] INFO: Successfully encrypt AES key
+[2025-05-21T14:10:41.744Z] INFO: Successfully encrypt IV
+[2025-05-21T14:10:41.744Z] INFO: http://localhost:4000/upload
+[2025-05-21T14:10:41.747Z] INFO: Successfully upload file: 桌布.avif
+[2025-05-21T14:10:43.176Z] INFO: List File Attempt
+[2025-05-21T14:10:43.178Z] INFO: Successfully retrieved file list
+[2025-05-21T14:10:51.869Z] INFO: Grant Access Attempt File: package-lock.json Email: mutinglee.cs11@nycu.edu.tw
+[2025-05-21T14:10:51.870Z] INFO: http://localhost:3000/grant_access
+[2025-05-21T14:10:51.874Z] INFO: Successfully grant access
+[2025-05-21T14:11:05.876Z] INFO: Register Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:11:05.877Z] INFO: http://localhost:3000/register
+[2025-05-21T14:11:36.516Z] INFO: OTP Register Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 471988
+[2025-05-21T14:11:36.516Z] INFO: http://localhost:3000/verify_register
+[2025-05-21T14:11:49.996Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: test
+[2025-05-21T14:11:49.996Z] INFO: http://localhost:3000/login
+[2025-05-21T14:11:52.129Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:11:52.129Z] INFO: http://localhost:3000/login
+[2025-05-21T14:12:01.026Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 282150
+[2025-05-21T14:12:01.027Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:12:01.033Z] INFO: login_success / SID=24060010
+[2025-05-21T14:12:04.854Z] INFO: List File Attempt
+[2025-05-21T14:12:04.856Z] INFO: Successfully retrieved file list
+[2025-05-21T14:12:16.200Z] INFO: Download Attempt File: package-lock.json / SID: 24060010
+[2025-05-21T14:12:16.205Z] INFO: Successfully download file from data server
+[2025-05-21T14:12:16.207Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:12:16.209Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:12:16.211Z] INFO: Successfully save file to /mnt/c/Users/tine0/Desktop/package-lock.json
+[2025-05-21T14:12:29.187Z] INFO: Download Attempt File: main.js / SID: 24060010
+[2025-05-21T14:12:29.190Z] INFO: Successfully download file from data server
+[2025-05-21T14:12:35.388Z] INFO: Download Attempt File: 桌布.avif / SID: 24060010
+[2025-05-21T14:12:35.395Z] INFO: Successfully download file from data server
+[2025-05-21T14:18:57.253Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:18:57.256Z] INFO: http://localhost:3000/login
+[2025-05-21T14:19:07.303Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 362375
+[2025-05-21T14:19:07.303Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:19:07.308Z] INFO: login_success / SID=15896895
+[2025-05-21T14:19:13.984Z] INFO: List File Attempt
+[2025-05-21T14:19:13.988Z] INFO: Successfully retrieved file list
+[2025-05-21T14:19:14.735Z] INFO: Download Attempt File: main.js / SID: 15896895
+[2025-05-21T14:19:14.741Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:15.709Z] INFO: Download Attempt File: 桌布.avif / SID: 15896895
+[2025-05-21T14:19:15.717Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:16.421Z] INFO: Download Attempt File: package-lock.json / SID: 15896895
+[2025-05-21T14:19:16.430Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:16.435Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:19:16.440Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:19:16.441Z] ERROR: Failed to download file
+[2025-05-21T14:19:17.489Z] INFO: Download Attempt File: package-lock.json / SID: 15896895
+[2025-05-21T14:19:17.498Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:17.502Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:19:17.506Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:19:17.506Z] ERROR: Failed to download file
+[2025-05-21T14:19:18.086Z] INFO: Download Attempt File: package-lock.json / SID: 15896895
+[2025-05-21T14:19:18.095Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:18.099Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:19:18.102Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:19:18.102Z] ERROR: Failed to download file
+[2025-05-21T14:19:18.701Z] INFO: Download Attempt File: package-lock.json / SID: 15896895
+[2025-05-21T14:19:18.704Z] INFO: Successfully download file from data server
+[2025-05-21T14:19:18.706Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:19:18.708Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:19:18.708Z] ERROR: Failed to download file
+[2025-05-21T14:20:32.837Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:20:32.840Z] INFO: http://localhost:3000/login
+[2025-05-21T14:20:40.347Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 270131
+[2025-05-21T14:20:40.348Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:20:40.355Z] INFO: login_success / SID=34536367
+[2025-05-21T14:20:45.073Z] INFO: List File Attempt
+[2025-05-21T14:20:45.076Z] INFO: Successfully retrieved file list
+[2025-05-21T14:20:45.844Z] INFO: Download Attempt File: 桌布.avif / SID: 34536367
+[2025-05-21T14:20:45.853Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:46.495Z] INFO: Download Attempt File: main.js / SID: 34536367
+[2025-05-21T14:20:46.500Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:46.897Z] INFO: Download Attempt File: package-lock.json / SID: 34536367
+[2025-05-21T14:20:46.905Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:46.910Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:20:46.915Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:20:46.916Z] ERROR: Failed to download file
+[2025-05-21T14:20:47.927Z] INFO: Download Attempt File: package-lock.json / SID: 34536367
+[2025-05-21T14:20:47.936Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:47.940Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:20:47.944Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:20:47.945Z] ERROR: Failed to download file
+[2025-05-21T14:20:48.572Z] INFO: Download Attempt File: package-lock.json / SID: 34536367
+[2025-05-21T14:20:48.580Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:48.585Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:20:48.589Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:20:48.589Z] ERROR: Failed to download file
+[2025-05-21T14:20:48.837Z] INFO: Download Attempt File: package-lock.json / SID: 34536367
+[2025-05-21T14:20:48.846Z] INFO: Successfully download file from data server
+[2025-05-21T14:20:48.850Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:20:48.854Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:20:48.854Z] ERROR: Failed to download file
+[2025-05-21T14:21:26.632Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:21:26.635Z] INFO: http://localhost:3000/login
+[2025-05-21T14:21:39.458Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 638674
+[2025-05-21T14:21:39.458Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:21:39.465Z] INFO: login_success / SID=43523108
+[2025-05-21T14:21:48.441Z] INFO: List File Attempt
+[2025-05-21T14:21:48.444Z] INFO: Successfully retrieved file list
+[2025-05-21T14:21:48.864Z] INFO: Download Attempt File: package-lock.json / SID: 43523108
+[2025-05-21T14:21:48.874Z] INFO: Successfully download file from data server
+[2025-05-21T14:21:48.880Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:21:48.885Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:21:53.766Z] ERROR: Failed to download file
+[2025-05-21T14:21:55.638Z] INFO: Download Attempt File: package-lock.json / SID: 43523108
+[2025-05-21T14:21:55.647Z] INFO: Successfully download file from data server
+[2025-05-21T14:21:55.652Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:21:55.655Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:22:05.444Z] ERROR: Failed to download file
+[2025-05-21T14:22:06.690Z] INFO: Download Attempt File: main.js / SID: 43523108
+[2025-05-21T14:22:06.696Z] INFO: Successfully download file from data server
+[2025-05-21T14:22:07.710Z] INFO: Download Attempt File: 桌布.avif / SID: 43523108
+[2025-05-21T14:22:07.713Z] INFO: Successfully download file from data server
+[2025-05-21T14:22:09.099Z] INFO: Download Attempt File: package-lock.json / SID: 43523108
+[2025-05-21T14:22:09.103Z] INFO: Successfully download file from data server
+[2025-05-21T14:22:09.105Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:22:09.106Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:22:10.485Z] INFO: User cancelled the download
+[2025-05-21T14:25:03.518Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:25:03.520Z] INFO: http://localhost:3000/login
+[2025-05-21T14:25:16.492Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 594845
+[2025-05-21T14:25:16.493Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:25:16.500Z] INFO: login_success / SID=28534241
+[2025-05-21T14:25:20.973Z] INFO: List File Attempt
+[2025-05-21T14:25:20.976Z] INFO: Successfully retrieved file list
+[2025-05-21T14:25:21.578Z] INFO: Download Attempt File: package-lock.json / SID: 28534241
+[2025-05-21T14:25:21.589Z] INFO: Successfully download file from data server
+[2025-05-21T14:25:21.594Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:25:21.599Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:25:24.463Z] INFO: Successfully save file to /mnt/c/Users/tine0/Desktop/package-lock.json
+[2025-05-21T14:25:30.198Z] INFO: Download Attempt File: main.js / SID: 28534241
+[2025-05-21T14:25:30.203Z] INFO: Successfully download file from data server
+[2025-05-21T14:25:30.999Z] INFO: Download Attempt File: 桌布.avif / SID: 28534241
+[2025-05-21T14:25:31.006Z] INFO: Successfully download file from data server
+[2025-05-21T14:27:30.226Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:27:30.229Z] INFO: http://localhost:3000/login
+[2025-05-21T14:27:38.698Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 346928
+[2025-05-21T14:27:38.699Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:27:38.706Z] INFO: login_success / SID=64888167
+[2025-05-21T14:27:45.671Z] INFO: Upload Attempt File: README.md
+[2025-05-21T14:27:45.672Z] INFO: http://localhost:3000/get_public_key
+[2025-05-21T14:27:45.852Z] INFO: Successfully ask KMS Public Key
+[2025-05-21T14:27:45.853Z] INFO: Successfully decode KMS Public Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlJCSR9zTwlh1rKQbor8n
+e7Zvx93yxbfLkc9pCkstlvnz3AuNOlFs4XzJLgK5c3hJDN/6aFRe4Im0HF0Gxyq2
+7A37kWkIZWdv+KsHAQ62R6ztE23xzkzbQMLyeUIUDmyvfHDilOx42kupmkH+U0cK
+Mj6Fc15rKuiKnhxe8NTTtn25IgV/hHzHFmiCGFYGsMwNGaXK9NNn8NEMVidiVJOq
+CqXHhNFhWlwL9h4115wd9Cy9oWCAs5MCSleJx5LyBvf1EsvYmtbisQ8KJJPSejH/
+4utAAKSaMc/HsdHx9ZJfUrHZXqyOSA6o4HH6EWZQjNsVmcy1ya053NFCa3HvpOxX
+1QIDAQAB
+-----END PUBLIC KEY-----
+[2025-05-21T14:27:45.853Z] INFO: Successfully encrypt AES key
+[2025-05-21T14:27:45.853Z] INFO: Successfully encrypt IV
+[2025-05-21T14:27:45.853Z] INFO: http://localhost:4000/upload
+[2025-05-21T14:27:45.857Z] INFO: Successfully upload file: README.md
+[2025-05-21T14:27:58.009Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T14:27:58.009Z] INFO: http://localhost:3000/login
+[2025-05-21T14:28:08.950Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 993441
+[2025-05-21T14:28:08.950Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:28:08.957Z] INFO: login_success / SID=71999820
+[2025-05-21T14:28:11.593Z] INFO: List File Attempt
+[2025-05-21T14:28:11.598Z] INFO: Successfully retrieved file list
+[2025-05-21T14:28:12.786Z] INFO: Download Attempt File: README.md / SID: 71999820
+[2025-05-21T14:28:12.792Z] INFO: Successfully download file from data server
+[2025-05-21T14:28:13.648Z] INFO: Download Attempt File: package-lock.json / SID: 71999820
+[2025-05-21T14:28:13.657Z] INFO: Successfully download file from data server
+[2025-05-21T14:28:13.661Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T14:28:13.665Z] INFO: Successfully decrypt data with AES key and IV
+[2025-05-21T14:28:15.275Z] INFO: User cancelled the download

@@ -38,24 +38,6 @@ ipcMain.handle('otp_register', handleOTPRegister);
 ipcMain.handle('upload', handleUpload);
 ipcMain.handle('list_file', handleListFile);
 ipcMain.handle('download', handleDownload);
-ipcMain.handle('dialog:save-file', async (event, defaultFileName) => {
-  console.log("defaultFileName", defaultFileName);
-  console.log(typeof defaultFileName);
-  const result = await dialog.showSaveDialog({
-    title: 'Save File As',
-    defaultPath: defaultFileName,
-    buttonLabel: 'Save',
-    filters: [
-      { name: 'All Files', extensions: ['*'] }
-    ]
-  });
 
-  if (result.canceled) {
-    return null;
-  } else {
-    return result.filePath;
-  }
-});
 // Grant Access
-
 ipcMain.handle('grant_access', handleGrantAccess);

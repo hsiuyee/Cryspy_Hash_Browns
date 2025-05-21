@@ -9,6 +9,4 @@ contextBridge.exposeInMainWorld('electronAPI', {
   list_file: () => ipcRenderer.invoke('list_file'),
   download: (fileName, sid, savePath) => ipcRenderer.invoke('download', { fileName, sid, savePath }),
   grant_access: (fileName, email, sid) => ipcRenderer.invoke('grant_access', { fileName, email, sid }),
-  chooseDownloadPath: (defaultFileName) =>
-    ipcRenderer.invoke('dialog:save-file',defaultFileName),
 });

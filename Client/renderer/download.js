@@ -21,12 +21,16 @@ async function fetchFileList() {
                 const sid = sessionStorage.getItem('sid');
 
                 btn.onclick = async () => {
-                    const savePath = await window.electronAPI.chooseDownloadPath(file);
-                    if (!savePath) {
-                        alert("User cancelled.");
-                        return;
+                    const response = await window.electronAPI.download(file, sid);
+
+                    const msg = document.getElementById("downloadMsg");
+                    if(response.success) {
+                        msg.innerHTML = `File downloaded successfully to ${response.filePath}`;
+                        msg.style.color = "green";
+                    }else{
+                        msg.innerHTML = response.error || "Download failed!";
+                        msg.style.color = "red";
                     }
-                    window.electronAPI.download(file, sid, savePath);
                 };
 
                 btnTd.appendChild(btn);

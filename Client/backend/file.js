@@ -1,5 +1,7 @@
 const {logger} = require('../logger.js')
 
+const { dialog } = require('electron');
+
 require('dotenv').config();
 const apiBaseUrl = process.env.API_BASE_URL;
 const dataBaseUrl = process.env.DATA_BASE_URL;
@@ -72,12 +74,12 @@ async function handleUpload(event, {fileName, fileType, fileBuffer, sid}) {
                 }
             }catch(err){
                 logger.error(`Failed to upload file: ${fileName}`);
-                if (axios.isAxiosError(error)) {
-                    console.error("Axios error:", error.response?.status, error.response?.data);
-                    return { success: false, error: error.response?.data?.status || error.message };
+                if (axios.isAxiosError(err)) {
+                    console.error("Axios error:", err.response?.status, err.response?.data);
+                    return { success: false, error: err.response?.data?.status || err.message };
                 } else {
                     console.error("Unexpected error:", error);
-                    return { success: false, error: error.message };
+                    return { success: false, error: err.message };
                 }
             }
 
@@ -92,10 +94,10 @@ async function handleUpload(event, {fileName, fileType, fileBuffer, sid}) {
     }catch(err){
         if (axios.isAxiosError(error)) {
             console.error("Axios error:", error.response?.status, error.response?.data);
-            return { success: false, error: error.response?.data?.status || error.message };
+            return { success: false, error: err.response?.data?.status || err.message };
         } else {
             console.error("Unexpected error:", error);
-            return { success: false, error: error.message };
+            return { success: false, error: err.message };
         }
     }
 }
@@ -185,12 +187,24 @@ async function handleDownload(event, {fileName, sid, savePath}) {
         logger.info("Successfully decrypt data with AES key and IV");
 
         // Part 4: Save decrypted data to file
-       
-        // TODO: Modify the file path to save the file in a specific directory
+        const result = await dialog.showSaveDialog({
+            title: 'Save File As',
+            defaultPath: fileName,
+            buttonLabel: 'Save',
+            filters: [
+              { name: 'All Files', extensions: ['*'] }
+            ]
+          });
 
-        fs.writeFileSync(savePath, decryptedData);
-        logger.info(`Successfully save file to ${savePath}`);
-        
+        if (result.canceled){
+            logger.info("User cancelled the download");
+            return { success: false, error: "User cancelled the download" };
+        }else{
+            savePath = result.filePath;
+            fs.writeFileSync(savePath, decryptedData);
+            logger.info(`Successfully save file to ${savePath}`);
+            return { success: true, filePath: savePath };
+        }
 
     } catch (error) {
         logger.error("Failed to download file");
