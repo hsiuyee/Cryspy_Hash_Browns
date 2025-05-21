@@ -6,15 +6,16 @@
   <title>OTP Verification</title>
 </head>
 <body>
-  <h1>Enter OTP</h1>
-  <h2 id="otpUsername"></h2>
-  <form id="otpForm">
-    <input type="text" id="otp" name="otp" maxlength="6" required/>
-    <button type="submit">Verify OTP</button>
-  </form>
-  <button id="topRightBtn" style="position: absolute; top: 16px; right: 16px;">Back to Login</button>
-  </script>
-  <p id="otpMsg"></p>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; position: relative;">
+    <button id="topRightBtn" style="position: absolute; top: 16px; right: 16px;">Back to Login</button>
+    <h1>Enter OTP</h1>
+    <h2 id="otpUsername"></h2>
+    <form id="otpForm" style="display: flex; flex-direction: column; align-items: center;">
+      <input type="text" id="otp" name="otp" maxlength="6" required style="margin-bottom: 12px;"/>
+      <button type="submit">Verify OTP</button>
+    </form>
+    <p id="otpMsg"></p>
+  </div>
 
   <script >
 

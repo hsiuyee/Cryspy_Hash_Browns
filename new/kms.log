@@ -267,3 +267,56 @@
 2025-05-20 15:52:37,190 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
 2025-05-20 16:58:08,497 INFO: Flushing Redis database for a clean start...
 2025-05-20 16:58:08,498 INFO: Starting KMS Server with FastAPI on port 3000
+2025-05-20 16:58:53,974 INFO: [LOGIN] Login failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 16:59:14,677 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 16:59:16,970 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 16:59:18,426 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:03:07,110 INFO: [LOGIN] Login failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:03:15,711 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 143076
+2025-05-20 17:03:16,036 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 143076
+2025-05-20 17:03:35,265 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-20 17:05:15,275 INFO: [LOGIN] Login failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:05:17,519 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 490518
+2025-05-20 17:05:17,635 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 490518
+2025-05-20 17:05:35,952 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:05:52,228 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 869071
+2025-05-20 17:05:52,353 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 869071
+2025-05-20 17:06:04,055 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:06:13,074 INFO: [SESSION] Generated sid: 16724881
+2025-05-20 17:06:13,076 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:06:18,482 INFO: [GET_PUBLIC_KEY] Public key saved for client.log (status_code: 200)
+2025-05-20 17:06:25,033 INFO: [GET_PUBLIC_KEY] Public key saved for preload.js (status_code: 200)
+2025-05-20 17:06:35,658 INFO: [GRANT_ACCESS] mutinglee.cs11@nycu.edu.tw granted on preload.js (status_code: 200)
+2025-05-20 17:17:07,458 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 200213
+2025-05-20 17:17:07,728 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 200213
+2025-05-20 17:17:21,853 INFO: [SESSION] Generated sid: 69147772
+2025-05-20 17:17:21,855 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:17:26,059 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
+2025-05-20 17:22:22,610 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 510106
+2025-05-20 17:22:22,734 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 510106
+2025-05-20 17:22:36,204 INFO: [SESSION] Generated sid: 26282804
+2025-05-20 17:22:36,206 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:24:55,724 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 114960
+2025-05-20 17:24:55,832 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 114960
+2025-05-20 17:25:09,068 INFO: [SESSION] Generated sid: 45558581
+2025-05-20 17:25:09,069 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:26:36,216 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 742726
+2025-05-20 17:26:36,331 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 742726
+2025-05-20 17:26:53,185 INFO: [SESSION] Generated sid: 11269900
+2025-05-20 17:26:53,186 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:27:52,540 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 694965
+2025-05-20 17:27:52,886 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 694965
+2025-05-20 17:28:02,404 INFO: [SESSION] Generated sid: 12130997
+2025-05-20 17:28:02,406 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:28:48,136 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 452899
+2025-05-20 17:28:48,381 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 452899
+2025-05-20 17:29:12,621 INFO: [LOGIN] Login failed for a0979608003#@gmail.com (status_code: 401)
+2025-05-20 17:29:17,023 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 895530
+2025-05-20 17:29:17,145 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 895530
+2025-05-20 17:29:26,317 INFO: [LOGIN] OTP failed for a0979608003@gmail.com (status_code: 401)
+2025-05-20 17:29:34,489 INFO: [SESSION] Generated sid: 29908459
+2025-05-20 17:29:34,490 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-20 17:29:46,664 INFO: [GET_PRIVATE_KEY] Private key retrieved for client.log (status_code: 200)
+2025-05-20 17:30:41,440 INFO: [GET_PRIVATE_KEY] Private key retrieved for preload.js (status_code: 200)
+2025-05-21 21:48:22,817 INFO: Flushing Redis database for a clean start...
+2025-05-21 21:48:22,819 INFO: Starting KMS Server with FastAPI on port 3000

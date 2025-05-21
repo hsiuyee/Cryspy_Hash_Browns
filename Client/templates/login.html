@@ -4,15 +4,16 @@
   <title>Login</title>
 </head>
 <body>
-  <h1>Login Page</h1>
-  <form id ="loginForm">
-    <input type="text" id="email" placeholder="Email" required /><br>
-    <input type="password" id="password" placeholder="Password" required /><br>
-    <button type="submit">Login</button>
-  </form>
-  <button onclick="goToRegister()">Go to Register</button>
-
-  <p id="message"> </p>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 80vh;">
+    <h1>Login Page</h1>
+    <form id="loginForm" style="display: flex; flex-direction: column; align-items: center;">
+      <input type="text" id="email" placeholder="Email" required style="margin-bottom: 10px;" /><br>
+      <input type="password" id="password" placeholder="Password" required style="margin-bottom: 10px;" /><br>
+      <button type="submit">Login</button>
+    </form>
+    <button onclick="goToRegister()" style="margin-top: 10px;">Go to Register</button>
+    <p id="message"></p>
+  </div>
 
   <script>
     function goToRegister() {

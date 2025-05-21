@@ -55,3 +55,20 @@
 2025-05-20 16:19:35,868 INFO: [LIST_FILES] Returning 4 files
 2025-05-20 16:58:31,177 INFO: Flushing Redis database for a clean start...
 2025-05-20 16:58:31,178 INFO: Starting Data Server with FastAPI on port 4000
+2025-05-20 17:06:18,487 INFO: [UPLOAD] Stored file 'client.log' in Redis with IV
+2025-05-20 17:06:19,378 INFO: [LIST_FILES] Returning 1 files
+2025-05-20 17:06:25,036 INFO: [UPLOAD] Stored file 'preload.js' in Redis with IV
+2025-05-20 17:06:26,105 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:06:27,793 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:07:01,653 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:17:25,216 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:17:26,050 INFO: [DOWNLOAD] Retrieved file 'client.log' from Redis
+2025-05-20 17:22:39,979 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:25:12,459 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:26:55,935 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:28:06,101 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:29:37,660 INFO: [LIST_FILES] Returning 2 files
+2025-05-20 17:29:46,660 INFO: [DOWNLOAD] Retrieved file 'client.log' from Redis
+2025-05-20 17:30:41,438 INFO: [DOWNLOAD] Retrieved file 'preload.js' from Redis
+2025-05-21 21:48:33,605 INFO: Flushing Redis database for a clean start...
+2025-05-21 21:48:33,607 INFO: Starting Data Server with FastAPI on port 4000
