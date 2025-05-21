@@ -323,3 +323,106 @@
 2025-05-21 21:50:48,268 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 632212
 2025-05-21 21:50:48,403 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 632212
 2025-05-21 21:51:00,439 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-21 22:09:11,900 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 544264
+2025-05-21 22:09:12,206 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 544264
+2025-05-21 22:09:54,781 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-21 22:10:04,525 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 164520
+2025-05-21 22:10:04,646 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 164520
+2025-05-21 22:10:14,831 INFO: [SESSION] Generated sid: 46302437
+2025-05-21 22:10:14,833 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-21 22:10:21,606 INFO: [GET_PUBLIC_KEY] Public key saved for package-lock.json (status_code: 200)
+2025-05-21 22:10:25,546 INFO: [GET_PUBLIC_KEY] Public key saved for main.js (status_code: 200)
+2025-05-21 22:10:41,741 INFO: [GET_PUBLIC_KEY] Public key saved for 桌布.avif (status_code: 200)
+2025-05-21 22:10:51,873 INFO: [GRANT_ACCESS] mutinglee.cs11@nycu.edu.tw granted on package-lock.json (status_code: 200)
+2025-05-21 22:11:06,023 INFO: [EMAIL] Sending verification OTP to mutinglee.cs11@nycu.edu.tw: 471988
+2025-05-21 22:11:06,135 INFO: [REGISTER] OTP sent to mutinglee.cs11@nycu.edu.tw: 471988
+2025-05-21 22:11:36,520 INFO: [REGISTER] User mutinglee.cs11@nycu.edu.tw verified (status_code: 200)
+2025-05-21 22:11:50,144 INFO: [LOGIN] Login failed for mutinglee.cs11@nycu.edu.tw (status_code: 401)
+2025-05-21 22:11:52,279 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 282150
+2025-05-21 22:11:52,527 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 282150
+2025-05-21 22:12:01,029 INFO: [SESSION] Generated sid: 24060010
+2025-05-21 22:12:01,031 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:12:16,206 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:12:29,191 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on main.js (status_code: 400)
+2025-05-21 22:12:35,397 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on 桌布.avif (status_code: 400)
+2025-05-21 22:18:57,461 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 362375
+2025-05-21 22:18:57,580 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 362375
+2025-05-21 22:19:07,306 INFO: [SESSION] Generated sid: 15896895
+2025-05-21 22:19:07,307 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:19:14,745 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on main.js (status_code: 400)
+2025-05-21 22:19:15,728 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on 桌布.avif (status_code: 400)
+2025-05-21 22:19:16,433 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:19:17,500 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:19:18,097 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:19:18,705 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:20:33,053 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 270131
+2025-05-21 22:20:33,170 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 270131
+2025-05-21 22:20:40,351 INFO: [SESSION] Generated sid: 34536367
+2025-05-21 22:20:40,353 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:20:45,866 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on 桌布.avif (status_code: 400)
+2025-05-21 22:20:46,503 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on main.js (status_code: 400)
+2025-05-21 22:20:46,908 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:20:47,939 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:20:48,582 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:20:48,849 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:21:26,842 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 638674
+2025-05-21 22:21:26,971 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 638674
+2025-05-21 22:21:39,462 INFO: [SESSION] Generated sid: 43523108
+2025-05-21 22:21:39,463 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:21:48,878 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:21:55,650 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:22:06,699 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on main.js (status_code: 400)
+2025-05-21 22:22:07,718 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on 桌布.avif (status_code: 400)
+2025-05-21 22:22:09,104 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:25:03,793 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 594845
+2025-05-21 22:25:03,904 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 594845
+2025-05-21 22:25:16,497 INFO: [SESSION] Generated sid: 28534241
+2025-05-21 22:25:16,498 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:25:21,592 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:25:30,206 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on main.js (status_code: 400)
+2025-05-21 22:25:31,020 INFO: [GET_PRIVATE_KEY] Access denied for mutinglee.cs11@nycu.edu.tw on 桌布.avif (status_code: 400)
+2025-05-21 22:27:30,472 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 346928
+2025-05-21 22:27:30,597 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 346928
+2025-05-21 22:27:38,702 INFO: [SESSION] Generated sid: 64888167
+2025-05-21 22:27:38,704 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:27:45,851 INFO: [GET_PUBLIC_KEY] Public key saved for README.md (status_code: 200)
+2025-05-21 22:27:59,479 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 993441
+2025-05-21 22:27:59,763 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 993441
+2025-05-21 22:28:08,954 INFO: [SESSION] Generated sid: 71999820
+2025-05-21 22:28:08,955 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-21 22:28:12,794 INFO: [GET_PRIVATE_KEY] Access denied for a0979608003@gmail.com on README.md (status_code: 400)
+2025-05-21 22:28:13,659 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 22:35:02,035 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 198202
+2025-05-21 22:35:02,153 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 198202
+2025-05-21 22:35:10,268 INFO: [SESSION] Generated sid: 67163047
+2025-05-21 22:35:10,270 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 22:35:53,995 INFO: [EMAIL] Login OTP to mutinglee.cs11@nycu.edu.tw: 593539
+2025-05-21 22:35:54,113 INFO: [LOGIN] OTP sent to mutinglee.cs11@nycu.edu.tw: 593539
+2025-05-21 22:36:02,942 INFO: [SESSION] Generated sid: 84488680
+2025-05-21 22:36:02,944 INFO: [LOGIN] Login success for mutinglee.cs11@nycu.edu.tw (status_code: 200)
+2025-05-21 23:48:35,981 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 380808
+2025-05-21 23:48:36,121 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 380808
+2025-05-21 23:48:48,491 INFO: [SESSION] Generated sid: 67734663
+2025-05-21 23:48:48,492 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-21 23:48:56,964 INFO: [GET_PRIVATE_KEY] Private key retrieved for 桌布.avif (status_code: 200)
+2025-05-21 23:48:59,669 INFO: [GET_PRIVATE_KEY] Private key retrieved for 桌布.avif (status_code: 200)
+2025-05-21 23:50:48,338 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 636571
+2025-05-21 23:50:48,604 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 636571
+2025-05-21 23:50:56,755 INFO: [SESSION] Generated sid: 12123925
+2025-05-21 23:50:56,757 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-21 23:51:00,428 INFO: [GET_PRIVATE_KEY] Private key retrieved for package-lock.json (status_code: 200)
+2025-05-21 23:51:02,137 INFO: [GET_PRIVATE_KEY] Private key retrieved for 桌布.avif (status_code: 200)
+2025-05-21 23:53:36,800 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 470076
+2025-05-21 23:53:36,901 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 470076
+2025-05-21 23:53:44,897 INFO: [EMAIL] OTP invalid for a0979608003@gmail.com (status_code: 401) - clear pending
+2025-05-21 23:54:10,272 INFO: [EMAIL] Sending verification OTP to a0979608003@mail.com: 416433
+2025-05-21 23:54:10,387 INFO: [REGISTER] OTP sent to a0979608003@mail.com: 416433
+2025-05-21 23:54:32,712 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 514231
+2025-05-21 23:54:32,819 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 514231
+2025-05-21 23:54:43,974 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-21 23:54:55,169 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 292231
+2025-05-21 23:54:55,284 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 292231
+2025-05-21 23:55:03,045 INFO: [SESSION] Generated sid: 39334867
+2025-05-21 23:55:03,047 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-21 23:55:09,762 INFO: [GET_PUBLIC_KEY] Public key saved for 桌布.avif (status_code: 200)
+2025-05-21 23:55:14,913 INFO: [GET_PRIVATE_KEY] Private key retrieved for 桌布.avif (status_code: 200)

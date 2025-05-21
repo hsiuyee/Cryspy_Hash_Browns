@@ -1340,3 +1340,45 @@ CqXHhNFhWlwL9h4115wd9Cy9oWCAs5MCSleJx5LyBvf1EsvYmtbisQ8KJJPSejH/
 [2025-05-21T14:28:13.661Z] INFO: Successfully ask KMS Private Key
 [2025-05-21T14:28:13.665Z] INFO: Successfully decrypt data with AES key and IV
 [2025-05-21T14:28:15.275Z] INFO: User cancelled the download
+[2025-05-21T14:35:01.773Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:35:01.776Z] INFO: http://localhost:3000/login
+[2025-05-21T14:35:10.264Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 198202
+[2025-05-21T14:35:10.265Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:35:10.272Z] INFO: login_success / SID=67163047
+[2025-05-21T14:35:13.735Z] INFO: List File Attempt
+[2025-05-21T14:35:13.739Z] INFO: Successfully retrieved file list
+[2025-05-21T14:35:53.845Z] INFO: Login Attempt Username: mutinglee.cs11@nycu.edu.tw Password: meow
+[2025-05-21T14:35:53.845Z] INFO: http://localhost:3000/login
+[2025-05-21T14:36:02.932Z] INFO: OTP Attempt Username: mutinglee.cs11@nycu.edu.tw OTP: 593539
+[2025-05-21T14:36:02.933Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T14:36:02.947Z] INFO: login_success / SID=84488680
+[2025-05-21T15:48:35.770Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T15:48:35.772Z] INFO: http://localhost:3000/login
+[2025-05-21T15:48:48.486Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 380808
+[2025-05-21T15:48:48.486Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T15:48:48.494Z] INFO: login_success / SID=67734663
+[2025-05-21T15:48:56.251Z] INFO: List File Attempt
+[2025-05-21T15:48:56.262Z] INFO: Successfully retrieved file list
+[2025-05-21T15:48:56.941Z] INFO: Download Attempt File: 桌布.avif / SID: 67734663
+[2025-05-21T15:48:56.953Z] INFO: Successfully download file from data server
+[2025-05-21T15:48:56.966Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T15:48:56.969Z] ERROR: Failed to download file
+[2025-05-21T15:48:59.658Z] INFO: Download Attempt File: 桌布.avif / SID: 67734663
+[2025-05-21T15:48:59.666Z] INFO: Successfully download file from data server
+[2025-05-21T15:48:59.670Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T15:48:59.674Z] ERROR: Failed to download file
+[2025-05-21T15:50:48.130Z] INFO: Login Attempt Username: a0979608003@gmail.com Password: test
+[2025-05-21T15:50:48.132Z] INFO: http://localhost:3000/login
+[2025-05-21T15:50:56.750Z] INFO: OTP Attempt Username: a0979608003@gmail.com OTP: 636571
+[2025-05-21T15:50:56.751Z] INFO: http://localhost:3000/verify_login
+[2025-05-21T15:50:56.759Z] INFO: login_success / SID=12123925
+[2025-05-21T15:50:59.578Z] INFO: List File Attempt
+[2025-05-21T15:50:59.581Z] INFO: Successfully retrieved file list
+[2025-05-21T15:51:00.414Z] INFO: Download Attempt File: package-lock.json / SID: 12123925
+[2025-05-21T15:51:00.425Z] INFO: Successfully download file from data server
+[2025-05-21T15:51:00.429Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T15:51:00.433Z] ERROR: Failed to download file
+[2025-05-21T15:51:02.118Z] INFO: Download Attempt File: 桌布.avif / SID: 12123925
+[2025-05-21T15:51:02.126Z] INFO: Successfully download file from data server
+[2025-05-21T15:51:02.138Z] INFO: Successfully ask KMS Private Key
+[2025-05-21T15:51:02.140Z] ERROR: Failed to download file

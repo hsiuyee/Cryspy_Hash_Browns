@@ -20,8 +20,10 @@ async function handleUpload(event, {fileName, fileType, fileBuffer, sid}) {
     const aesKey = crypto.randomBytes(32);
     const iv = crypto.randomBytes(16);
     const cipher = crypto.createCipheriv('aes-256-cbc', aesKey, iv);
-    let encryptedData = cipher.update(file, 'utf8', 'hex');
-    encryptedData += cipher.final('hex');
+    // let encryptedData = cipher.update(file, 'utf8', 'hex');
+    // encryptedData += cipher.final('hex');
+    let encryptedData = Buffer.concat([cipher.update(file), cipher.final()]);
+    encryptedData = encryptedData.toString('base64');
 
     // Step 2: Ask KMS Public Key and Encrypt AES key
     try{
@@ -182,8 +184,13 @@ async function handleDownload(event, {fileName, sid, savePath}) {
 
         // Part 3: Decrypt data with AES key and IV 
         const decipher = crypto.createDecipheriv('aes-256-cbc', decryptedKey, decryptedIV);
-        let decryptedData = decipher.update(encryptedData, 'hex', 'utf8');
-        decryptedData += decipher.final('utf8');
+        // let decryptedData = decipher.update(encryptedData, 'hex', 'utf8');
+        // decryptedData += decipher.final('utf8');
+
+        const encryptedBuffer = Buffer.from(encryptedData, 'base64');
+        let decryptedData = decipher.update(encryptedBuffer);
+        decryptedData = Buffer.concat([decryptedData, decipher.final()]);
+        
         logger.info("Successfully decrypt data with AES key and IV");
 
         // Part 4: Save decrypted data to file

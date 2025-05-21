@@ -74,3 +74,51 @@
 2025-05-21 21:48:33,607 INFO: Starting Data Server with FastAPI on port 4000
 2025-05-21 22:08:57,979 INFO: Flushing Redis database for a clean start...
 2025-05-21 22:08:57,981 INFO: Starting Data Server with FastAPI on port 4000
+2025-05-21 22:10:21,611 INFO: [UPLOAD] Stored file 'package-lock.json' in Redis with IV
+2025-05-21 22:10:25,548 INFO: [UPLOAD] Stored file 'main.js' in Redis with IV
+2025-05-21 22:10:41,746 INFO: [UPLOAD] Stored file '桌布.avif' in Redis with IV
+2025-05-21 22:10:43,177 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:12:04,856 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:12:16,202 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:12:29,189 INFO: [DOWNLOAD] Retrieved file 'main.js' from Redis
+2025-05-21 22:12:35,392 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 22:19:13,986 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:19:14,739 INFO: [DOWNLOAD] Retrieved file 'main.js' from Redis
+2025-05-21 22:19:15,712 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 22:19:16,425 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:19:17,491 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:19:18,089 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:19:18,702 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:20:45,075 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:20:45,847 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 22:20:46,498 INFO: [DOWNLOAD] Retrieved file 'main.js' from Redis
+2025-05-21 22:20:46,900 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:20:47,930 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:20:48,574 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:20:48,840 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:21:48,443 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:21:48,868 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:21:55,641 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:22:06,694 INFO: [DOWNLOAD] Retrieved file 'main.js' from Redis
+2025-05-21 22:22:07,711 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 22:22:09,100 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:25:20,975 INFO: [LIST_FILES] Returning 3 files
+2025-05-21 22:25:21,582 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:25:30,201 INFO: [DOWNLOAD] Retrieved file 'main.js' from Redis
+2025-05-21 22:25:31,002 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 22:27:45,855 INFO: [UPLOAD] Stored file 'README.md' in Redis with IV
+2025-05-21 22:28:11,595 INFO: [LIST_FILES] Returning 4 files
+2025-05-21 22:28:12,790 INFO: [DOWNLOAD] Retrieved file 'README.md' from Redis
+2025-05-21 22:28:13,651 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 22:35:13,738 INFO: [LIST_FILES] Returning 4 files
+2025-05-21 23:48:56,260 INFO: [LIST_FILES] Returning 4 files
+2025-05-21 23:48:56,949 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 23:48:59,661 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 23:50:59,580 INFO: [LIST_FILES] Returning 4 files
+2025-05-21 23:51:00,418 INFO: [DOWNLOAD] Retrieved file 'package-lock.json' from Redis
+2025-05-21 23:51:02,121 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-21 23:53:19,943 INFO: Flushing Redis database for a clean start...
+2025-05-21 23:53:19,945 INFO: Starting Data Server with FastAPI on port 4000
+2025-05-21 23:55:09,767 INFO: [UPLOAD] Stored file '桌布.avif' in Redis with IV
+2025-05-21 23:55:14,153 INFO: [LIST_FILES] Returning 1 files
+2025-05-21 23:55:14,907 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
