@@ -57,7 +57,7 @@ Detailed documentation for each component is available in their respective direc
 
 ## 🧹 Cleanup
 
-The `Server` and `Server_Redis` directories are redundant and can be safely removed to avoid confusion.
+The `Old_Server` and `Old_Server_Redis` directories are redundant and can be safely removed to avoid confusion.
 
 ---
 
