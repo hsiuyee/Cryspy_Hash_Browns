@@ -11,16 +11,24 @@ $npm start
 ## File structure
 
 ```
-Final/
+Client/
     |--- backend/
         |--- auth.js        # Deal with user login and register
+        |--- file.js        # Deal with upload and download encrypt/decrypt
+        |--- grant.js       # Deal with grant access to other users
     |--- renderer/          # This file for front-end logic 
-        |--- login.js
+        |--- upload.js
+        |--- download.js
     |--- templates/ 
         |--- login.html
         |--- register.html
-        |--- main.html
+        |--- index.html
         |--- otp.html 
+        |--- otp-register.html
+        |--- download.html
+        |--- grant.html
+        |--- base.html
+        |--- style.css
     |--- main.js 
     |--- preload.js 
     |--- package.json
@@ -29,6 +37,3 @@ Final/
     |--- README.md
     |--- .env-template 
 ```
-## TODO 
-* (Wait RegisterCreate and RegisterVerify API) Test handleRegister 
-* Change handleLogin to api version 
