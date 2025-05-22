@@ -1,3 +1,4 @@
+# KMS_APIs_fastapi.py
 from fastapi import FastAPI, Request, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -9,6 +10,8 @@ import smtplib
 from fastapi.responses import JSONResponse
 from email.mime.text import MIMEText
 from Crypto.PublicKey import RSA
+from dotenv import load_dotenv
+import os
 import redis
 import bcrypt
 
@@ -24,7 +27,8 @@ def log(msg):
     logging.info(msg)
 
 # === Redis client ===
-r = redis.Redis(host='localhost', port=6379, db=0)
+load_dotenv()
+r = redis.Redis(host=os.getenv('REDIS_HOST'), port=os.getenv('REDIS_PORT'), db=0)
 
 # === FastAPI app ===
 app = FastAPI()
@@ -38,10 +42,10 @@ app.add_middleware(
 )
 
 # === SMTP Settings ===
-SMTP_SERVER = 'smtp.cs.nctu.edu.tw'
-SMTP_PORT = 25
-SENDER_EMAIL = 'liaohi@cs.nycu.edu.tw'
-SENDER_PASS = 'A131710916a@'
+SMTP_SERVER = os.getenv('SMTP_SERVER')
+SMTP_PORT = os.getenv('SMTP_PORT')
+SENDER_EMAIL = os.getenv('SENDER_EMAIL')
+SENDER_PASS = os.getenv('SENDER_PASS')
 
 # === Models ===
 class RegisterRequest(BaseModel):

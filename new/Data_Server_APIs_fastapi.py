@@ -1,8 +1,10 @@
-# data_server.py
+# Data_Server_APIs_fastapi.py
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from dotenv import load_dotenv
+import os
 import redis
 import logging
 
@@ -18,7 +20,8 @@ def log(msg: str):
     logging.info(msg)
 
 # === Redis client ===
-r = redis.Redis(host="localhost", port=6379, db=0)
+load_dotenv()
+r = redis.Redis(host=os.getenv('REDIS_HOST'), port=os.getenv('REDIS_PORT'), db=0)
 
 # === FastAPI App ===
 app = FastAPI(
