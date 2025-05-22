@@ -1,4 +1,4 @@
-import "@fontsource/noto-sans-tc";
+// import "@fontsource/noto-sans-tc";
 
 const email = sessionStorage.getItem('email');
 document.getElementById('welcome').innerText = `Welcome ${email}`;
