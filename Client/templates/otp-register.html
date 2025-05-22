@@ -7,7 +7,7 @@
 </head>
 <body>
   <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; position: relative;">
-    <button id="topRightBtn" style="position: absolute; top: 16px; right: 16px;">Back to Login</button>
+    <button id="topRightBtn" style="position: absolute; top: 16px; right: 16px;">Back to Register</button>
     <h1>Enter OTP</h1>
     <h2 id="otpUsername"></h2>
     <form id="otpForm" style="display: flex; flex-direction: column; align-items: center;">
@@ -20,7 +20,7 @@
   <script >
 
     document.getElementById('topRightBtn').onclick = function() {
-      window.location.href = "login.html";
+      window.location.href = "register.html";
     };
 
     const apiBaseUrl = sessionStorage.getItem('apiBaseUrl');
