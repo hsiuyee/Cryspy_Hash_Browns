@@ -122,3 +122,5 @@
 2025-05-21 23:55:09,767 INFO: [UPLOAD] Stored file '桌布.avif' in Redis with IV
 2025-05-21 23:55:14,153 INFO: [LIST_FILES] Returning 1 files
 2025-05-21 23:55:14,907 INFO: [DOWNLOAD] Retrieved file '桌布.avif' from Redis
+2025-05-22 14:08:13,968 INFO: [LIST_FILES] Returning 0 files
+2025-05-22 14:12:06,964 INFO: [LIST_FILES] Returning 0 files

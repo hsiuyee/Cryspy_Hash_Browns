@@ -426,3 +426,18 @@
 2025-05-21 23:55:03,047 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
 2025-05-21 23:55:09,762 INFO: [GET_PUBLIC_KEY] Public key saved for 桌布.avif (status_code: 200)
 2025-05-21 23:55:14,913 INFO: [GET_PRIVATE_KEY] Private key retrieved for 桌布.avif (status_code: 200)
+2025-05-22 13:54:28,713 INFO: [EMAIL] Sending verification OTP to a0979608003@gmail.com: 653668
+2025-05-22 13:54:29,285 INFO: [REGISTER] OTP sent to a0979608003@gmail.com: 653668
+2025-05-22 13:54:47,098 INFO: [REGISTER] User a0979608003@gmail.com verified (status_code: 200)
+2025-05-22 13:54:58,221 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 267639
+2025-05-22 13:54:58,837 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 267639
+2025-05-22 13:55:09,070 INFO: [SESSION] Generated sid: 22644260
+2025-05-22 13:55:09,073 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-22 14:07:56,757 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 492226
+2025-05-22 14:07:57,249 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 492226
+2025-05-22 14:08:05,175 INFO: [SESSION] Generated sid: 13231155
+2025-05-22 14:08:05,178 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)
+2025-05-22 14:11:36,521 INFO: [EMAIL] Login OTP to a0979608003@gmail.com: 938805
+2025-05-22 14:11:35,673 INFO: [LOGIN] OTP sent to a0979608003@gmail.com: 938805
+2025-05-22 14:11:49,618 INFO: [SESSION] Generated sid: 35394582
+2025-05-22 14:11:49,624 INFO: [LOGIN] Login success for a0979608003@gmail.com (status_code: 200)

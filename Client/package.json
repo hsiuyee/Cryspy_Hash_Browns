@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron . --no-sandbox --disable-gpu"
+    "start": "sudo apt update && sudo apt install fonts-noto-cjk && electron . --no-sandbox --disable-gpu"
   },
   "keywords": [],
   "author": "",
