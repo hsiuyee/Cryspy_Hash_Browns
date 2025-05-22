@@ -24,8 +24,7 @@ Cryspy_Hash_Browns/
 ├── .gitignore
 ├── ..gitignore.un~
 ├── README.md               # This file
-├── package-lock.json
-└── ...                     # 更多根目錄檔案
+└── package-lock.json
 ```
 
 
