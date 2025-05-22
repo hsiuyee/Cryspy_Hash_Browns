@@ -18,6 +18,8 @@ function createWindow() {
   mainWindow.loadFile('templates/login.html');
 }
 
+app.commandLine.appendSwitch('lang', 'zh-TW');  // 簡中 zh-CN，繁中 zh-TW
+
 app.whenReady().then(() => {
   createWindow();
 });
@@ -27,6 +29,8 @@ app.on('window-all-closed', function() {
     app.quit();
   }
 });
+
+// app.SetLocale('zh-TW');
 
 // Authentication 
 ipcMain.handle('login', handleLogin);
